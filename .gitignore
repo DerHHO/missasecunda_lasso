@@ -1,0 +1,7 @@
+Noten/dynamicparams.ly
+tex/dynamicparams.tex
+*.pdf
+*.midi
+*.log
+*.aux
+tex/Instrument.tex
