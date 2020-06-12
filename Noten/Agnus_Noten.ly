@@ -46,14 +46,11 @@ sopranNotenAgnusMissaIILasso =  \relative bes' {
 
 sopranTextAgnusMissaIILasso =  \lyricmode {
   A -- gnus De -- i,
-  A -- gnus De -- \skip4
-  \skip4 \skip4 \skip4 i, qui tol -- lis pec -- ca -- ta
-  mun -- \skip4 \skip4 \skip4 di: mi -- se -- re re, mi -- se
-  -- re -- re no -- bis, mi -- se re -- re no -- bis, mi --
-  se re -- re no -- bis, mi -- se -- re -- re no -- \skip4
-  bis, mi -- se -- re -- re, mi -- se re -- re no -- \skip4
-  \skip4 \skip4 bis, mi -- se -- re -- re no -- bis, mi -- se
-  -- re -- re no -- bis. \skip4
+  A -- gnus De -- _
+  _ _ _ i, qui tol -- lis pec -- ca -- ta
+  mun -- _ _ _ di: mi -- se -- re -- re, mi -- se -- re -- re no -- bis, mi -- se -- re -- re no -- bis, mi -- se -- re -- re no -- bis, mi -- se -- re -- re no -- _
+  bis, mi -- se -- re -- re, mi -- se -- re -- re no -- _
+  _ _ bis, mi -- se -- re -- re no -- bis, mi -- se -- re -- re no -- bis. _
 }
 
 
@@ -90,14 +87,7 @@ altNotenAgnusMissaIILasso =  \relative d' {
 
 altTextAgnusMissaIILasso =  \lyricmode {
   A -- gnus De -- _ _ _ i,
-  A -- \skip4 \skip4 \skip4 gnus De
-  -- \skip4 \skip4 \skip4 \skip4 \skip4 i, qui tol -- lis pec
-  -- \skip4 \skip4 \skip4 ca -- ta mun -- \skip4 \skip4 di: mi
-  -- se -- re -- re, mi -- se -- re -- re no -- bis, mi -- se -- re
-  -- re, mi -- se -- re -- re no -- bis, mi -- se -- re -- re no
-  -- bis, mi -- se -- re -- re no -- bis, mi -- se -- re -- re no
-  -- bis, mi -- se -- re -- re no -- bis, mi -- se -- re --
-  re no -- bis.
+  A -- _ _ _ gnus De -- _ _ _ _ _ i, qui tol -- lis pec -- _ _ _ ca -- ta mun -- _ _ di: mi -- se -- re -- re, mi -- se -- re -- re no -- bis, mi -- se -- re -- re, mi -- se -- re -- re no -- bis, mi -- se -- re -- re no -- bis, mi -- se -- re -- re no -- bis, mi -- se -- re -- re no -- bis, mi -- se -- re -- re no -- bis, mi -- se -- re -- re no -- bis.
 }
 tenorNotenAgnusMissaIILasso =  \relative g {
   \clef "treble_8" 
@@ -134,11 +124,8 @@ tenorNotenAgnusMissaIILasso =  \relative g {
 
 tenorTextAgnusMissaIILasso =  \lyricmode {
   A -- gnus
-  De -- i, A --
-  gnus De -- \skip4 \skip4 \skip4 \skip4 \skip4 i,
-  qui tol -- lis pec -- ca -- ta mun -- di: mi -- se -- re --
-  re, mi -- se -- re -- re no -- bis, mi -- se -- re --
-  re, mi -- se -- re -- re, mi -- se -- re -- re no -- \skip4
+  De -- i, A -- gnus De -- _ _ _ _ _ i,
+  qui tol -- lis pec -- ca -- ta mun -- di: mi -- se -- re -- re, mi -- se -- re -- re no -- bis, mi -- se -- re -- re, mi -- se -- re -- re, mi -- se -- re -- re no -- _
   bis, mi -- se -- re -- re, mi -- se -- re -- re no -- _ bis. __
 }
 
@@ -175,28 +162,26 @@ bassNotenAgnusMissaIILasso =  \relative g {
 }
 
 bassTextAgnusMissaIILasso =  \lyricmode {
-  A -- gnus __ \skip4 De -- i, A
-  gnus De -- _ i, qui tol -- lis pec -- \skip4
-  \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 \skip4 ca -- ta mun --
-  di: mi -- se -- re -- re, mi -- se -- re -- \skip4 \skip4 re
+  A -- gnus __ _ De -- i, A -- gnus De -- _ i, qui tol -- lis pec -- _
+  _ _ _ _ _ _ _ ca -- ta mun -- di: mi -- se -- re -- re, mi -- se -- re -- _ _ re
   no -- bis, mi -- se -- re -- re no -- bis, mi -- se -- re -- re
-  no -- bis, mi -- se -- re -- re, mi -- se -- re -- re no --
-  bis, mi -- se -- re -- re no -- bis, mi -- se -- re -- re, mi --
-  se -- re -- re mi -- se -- re -- re no -- bis.
+  no -- bis, mi -- se -- re -- re, mi -- se -- re -- re no -- bis, mi -- se -- re -- re no -- bis, mi -- se -- re -- re, mi -- se -- re -- re mi -- se -- re -- re no -- bis.
 }
 
 % The score definition
 scoreAgnusMissaIILasso = {
   \new ChoirStaff <<
     \new Staff <<
-      \set Staff.instrumentName = "S"
+      \set Staff.instrumentName = "SOPRAN"
+      \set Staff.shortInstrumentName = "S."
       \context Staff <<
         \context Voice = "sopranNotenAgnusMissaIILasso" { \sopranNotenAgnusMissaIILasso }
         \new Lyrics \lyricsto "sopranNotenAgnusMissaIILasso" \sopranTextAgnusMissaIILasso
       >>
     >>
     \new Staff <<
-      \set Staff.instrumentName = "A."
+      \set Staff.instrumentName = "ALT"
+      \set Staff.shortInstrumentName = "A."
       \context Staff <<
         \context Voice = "altNotenAgnusMissaIILasso" { \altNotenAgnusMissaIILasso }
         \new Lyrics \lyricsto "altNotenAgnusMissaIILasso" \altTextAgnusMissaIILasso
@@ -204,7 +189,8 @@ scoreAgnusMissaIILasso = {
     >>
 
     \new Staff <<
-      \set Staff.instrumentName = "T."
+      \set Staff.instrumentName = "TENOR"
+      \set Staff.shortInstrumentName = "T."
       \context Staff <<
         \context Voice = "tenorNotenAgnusMissaIILasso" { \tenorNotenAgnusMissaIILasso }
         \new Lyrics \lyricsto "tenorNotenAgnusMissaIILasso" \tenorTextAgnusMissaIILasso
@@ -212,7 +198,8 @@ scoreAgnusMissaIILasso = {
     >>
 
     \new Staff <<
-      \set Staff.instrumentName = "B."
+      \set Staff.instrumentName = "BASS"
+      \set Staff.shortInstrumentName = "B."
       \context Staff <<
         \context Voice = "bassNotenAgnusMissaIILasso" { \bassNotenAgnusMissaIILasso }
         \new Lyrics \lyricsto "bassNotenAgnusMissaIILasso" \bassTextAgnusMissaIILasso

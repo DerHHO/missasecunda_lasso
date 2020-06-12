@@ -5,3 +5,6 @@ tex/dynamicparams.tex
 *.log
 *.aux
 tex/Instrument.tex
+tex/qrcodes.tex
+tex/qrcode.tex
+backup-Noten/

@@ -72,23 +72,16 @@ PartPOneVoiceOne =  \relative b' {
 
 PartPOneVoiceOneLyricsOne =  \lyricmode {
   San -- _ _
-  _ _ _ _ ctus __ _ _ _ _ San
-  -- _ _ _ _ _ _ _ _ ctus
-  Do -- mi -- _ De -- us Sa -- ba -- oth, Do -- mi
-  -- nus De -- _ _ _ us  Sa -- ba -- oth. Ple -- ni sunt
+  _ _ _ _ ctus __ _ _ _ _ San -- _ _ _ _ _ _ _ _ ctus
+  Do -- mi -- _ De -- us Sa -- ba -- oth, Do -- mi -- nus De -- _ _ _ us  Sa -- ba -- oth. Ple -- ni sunt
   coe -- _ _ li, ple -- ni sunt coe -- _
-  _ li __ _ _ et ter ra glo -- ri -- a, glo -- ri -- a,
-  glo -- ri -- a tu -- a, glo -- ri -- a tu -- a, glo -- ri --
-  a, glo -- ri -- a, glo -- ri -- a _ _ tu --
-  _ _ _ a, glo -- ri -- a, glo -- ri -- a
-  tua. _ Be -- ne -- di -- ctus, be -- ne di --
-  ctus qui ve _ _ nit in no -- mi -- ne Do -- mi -- ni, in
-  no -- mi -- ne Do -- mi -- ni, in no -- mi -- ne, in no -- mi --
-  ne, in no -- mi -- ne, in no -- mi -- ne Do -- _ _
-  _ mi -- ni. Ho_ -- _ na, ho -- san -- na, ho --
-  san -- na, ho -- san -- na in ex -- cel -- sis, ho -- san --
-  na, ho -- san -- na, ho -- san na in ex -- cel -- sis, ho -- san
-  -- na in ex -- cel -- sis. _
+  _ li __ _ _ et ter -- ra glo -- ri -- a, glo -- ri -- a,
+  glo -- ri -- a tu -- a, glo -- ri -- a tu -- a, glo -- ri -- a, glo -- ri -- a, glo -- ri -- a _ _ tu -- _ _ _ a, glo -- ri -- a, glo -- ri -- a
+  tu -- a. 
+  Be -- ne -- di -- ctus, be -- ne -- di -- ctus 
+  qui ve -- _ _ nit in no -- mi -- ne Do -- mi -- ni, in
+  no -- mi -- ne Do -- mi -- ni, in no -- mi -- ne, in no -- mi -- ne, in no -- mi -- ne, in no -- mi -- ne Do -- _ _
+  _ mi -- ni. Ho_ -- _ na, ho -- san -- na, ho -- san -- na, ho -- san -- na in ex -- cel -- sis, ho -- san -- na, ho -- san -- na, ho -- san -- na in ex -- cel -- sis, ho -- san -- na in ex -- cel -- sis. _
 }
 PartPTwoVoiceOne =  \relative d' {
   \globalSanctusMissaIILasso
@@ -158,21 +151,15 @@ PartPTwoVoiceOneLyricsOne =  \lyricmode {
   San -- _ _ _ _ _ _ _
   ctus, San -- _ _ ctus Do -- mi -- nus De -- us
     Sa -- _ ba -- oth, Do -- mi -- nus De -- _
-  _ _ us Sa -- _ ba -- oth. Ple ni sunt coe
-  -- li, ple -- ni sunt coe -- li et ter -- ra glo -- ri --
-  a, glo -- ri -- a, glo -- ri -- a, glo -- ri -- a tu --
-  _ a, glo -- ri -- a tu -- glo -- ri -- a tu -- a, glo -- ri
-  -- a tu -- a, glo -- n -- a, glo -- ri -- a tu -- a. 
+  _ _ us Sa -- _ ba -- oth. Ple -- ni sunt coe -- li, ple -- ni sunt coe -- li et ter -- ra glo -- ri -- a, glo -- ri -- a, glo -- ri -- a, glo -- ri -- a tu -- _ a, glo -- ri -- a tu -- a,
+  glo -- ri -- a tu -- a, glo -- ri -- a tu -- a, glo -- n -- a, glo -- ri -- a tu -- a. 
   
-  Be -- ne -- di -- _ _ _ _ ctus, be --
-  _ _ ctus qui ve -- _ _ nit in no -- mi -- ne
-  Do -- mi -- ni, in no -- mi -- ne Do -- mi -- ni, in no -- mi --
-  ne, in no -- mi -- ne, in no -- mi -- ne, in no -- mi -- ne
-  Do -- _ mi ni. Ho -- san -- na, ho -- san -- na,
-  ho -- san -- na in ex -- cel sis, ho -- san -- na in ex -- cel -- sis,
-  ho -- san -- na in ex -- cel -- sis, ho -- san -- na, ho --
-  san -- na in ex -- cel -- sis, ho -- san -- na in ex --
-  cel -- sis.
+  Be -- ne -- di -- _ _ _ _ ctus, be -- ne -- di -- ctus
+  qui ve -- _ _ nit in no -- mi -- ne
+  Do -- mi -- ni, in no -- mi -- ne Do -- mi -- ni, in no -- mi -- ne, in no -- mi -- ne, in no -- mi -- ne, in no -- mi -- ne
+  Do -- _ mi -- ni. Ho -- san -- na, ho -- san -- na,
+  ho -- san -- na in ex -- cel -- sis, ho -- san -- na in ex -- cel -- sis,
+  ho -- san -- na in ex -- cel -- sis, ho -- san -- na, ho -- san -- na in ex -- cel -- sis, ho -- san -- na in ex -- cel -- sis.
 }
 
 PartPThreeVoiceOne =  \relative b' {
@@ -243,20 +230,13 @@ PartPThreeVoiceOneLyricsOne =  \lyricmode {
   _ _ _ _ _ ctus, San -- _
   _ _ _ _ _ ctus Do -- mi -- nus De -- us
   Sa -- ba -- oth, Do -- mi -- nus De -- us Sa -- ba -- oth,
-  De -- us Sa -- ba -- oth. __ _ Ple -- ni sunt cæ --
-  li et ter -- _ _ _ ra glo -- ri -- a,
+  De -- us Sa -- ba -- oth. __ _ Ple -- ni sunt cæ -- li et ter -- _ _ _ ra glo -- ri -- a,
   glo -- ri -- a tu -- a, glo -- n -- a, glo -- ri -- a, 
  
-   glo --
-  ri -- a tu -- _ _ _ _ _ a. __ 
-  Be -- ne -- di -- ctus, be -- ne di -- ctus qui ve --
-  _ _ nit in no -- mi -- ne, in no -- mi -- ne Do -- mi
-  -- ni, in no -- mi -- ne, in no -- mi -- ne, in no -- mi --
-  ne, in no -- mi -- ne, in no -- mi -- ne Do -- _ _
-  mi -- ni. Ho -- san -- na, ho -- san -- na, ho -- san --
-  na, ho -- san -- na in ex -- cel -- sis, ho -- san -- na,
-  ho -- san -- na, ho -- san -- na, ho_ -- _ na in ex
-  -- cel -- sis.
+   glo -- ri -- a tu -- _ _ _ _ _ a. __ 
+  Be -- ne -- di -- ctus, be -- ne -- di -- ctus qui ve -- _ _ nit in no -- mi -- ne, in no -- mi -- ne Do -- mi -- ni, in no -- mi -- ne, in no -- mi -- ne, in no -- mi -- ne, in no -- mi -- ne, in no -- mi -- ne Do -- _ _
+  mi -- ni. Ho -- san -- na, ho -- san -- na, ho -- san -- na, ho -- san -- na in ex -- cel -- sis, ho -- san -- na,
+  ho -- san -- na, ho -- san -- na, ho_ -- _ na in ex -- cel -- sis. __
 }
 PartPFourVoiceOne =  \relative d {
   \clef "bass" 
@@ -314,31 +294,23 @@ PartPFourVoiceOne =  \relative d {
   \break | % 48
   bes2 bes,2 d4 \rest f4 a2 \bar "|"
   f4 f4 d4 d4 g4 c,4 d2  
-  g,2 c2 es2 bes?2 \bar "|"
+  g,2 c2 es2 bes!2 \bar "|"
   c2 g2 c1 \bar "|"
   g\breve \bar "|."
 }
 
 PartPFourVoiceOneLyricsOne =  \lyricmode {
   San -- _ _
-  _ _ _ _ _ _ ctus, San --
-  _ _ _ _ _ _ ctus, San -- _
+  _ _ _ _ _ _ ctus, San -- _ _ _ _ _ _ ctus, San -- _
   _ _ _ ctus Do -- mi -- nus De -- us __ _ _
-  _ _ _ _ Sa -- _ _ _ _ ba
-  -- oth Do -- mi -- nus De -- _ _ _ _ _ _
+  _ _ _ _ Sa -- _ _ _ _ ba -- oth Do -- mi -- nus De -- _ _ _ _ _ _
   us Sa -- ba -- oth. __ _ Ple -- ni sunt coe -- _ li et
-  ter -- _ ra glo -- ri -- a, glo -- ri -- a tu -- a, glo
-  -- ri -- a tu -- a, glo -- ri -- a, glo -- ri -- a, glo -- ri
-  -- a, glo -- ri -- a tu -- _ _ a, glo -- glo -- ri
-  -- a tu -- a. Be -- ne -- di -- _ _ _ _
+  ter -- _ ra glo -- ri -- a, glo -- ri -- a tu -- a, glo -- ri -- a tu -- a, glo -- ri -- a, glo -- ri -- a, glo -- ri -- a, glo -- ri -- a tu -- _ _ a, glo -- glo -- ri -- a tu -- a. Be -- ne -- di -- _ _ _ _
   ctus, __  be -- ne -- di -- _ _ ctus qui ve -- nit in
-  no -- mi -- ne, in no -- mi -- ne Do -- mi -- ni, in no -- mi --
-  ne, in no -- mi -- ne, in no -- mi -- ne, in no -- mi -- ne,
-  in no -- mi -- ne Do -- mi -- ni. Ho -- san -- na, ho --
-  san -- na, ho -- san -- na, ho_ -- _ na in ex -- cel --
-  sis, ho_ -- _ na, ho -- san -- na, ho -- san -- na,
-  ho -- san -- na in ex -- cel -- ho _ na in ex -- cel --
-  sis.
+  no -- mi -- ne, in no -- mi -- ne Do -- mi -- ni, in no -- mi -- ne, in no -- mi -- ne, in no -- mi -- ne, in no -- mi -- ne,
+  in no -- mi -- ne Do -- mi -- ni. Ho -- san -- na, ho -- san -- na, ho -- san -- na, ho_ -- _ na in ex -- cel -- sis, ho_ -- _ na, ho -- san -- na, ho -- san -- na,
+  ho -- san -- na in ex -- cel -- sis,
+  ho -- san -- na in ex -- cel -- sis.
 }
 PartPFiveVoiceNone =  \relative c' {
   \numericTimeSignature\time 4/2  | % 1
@@ -373,12 +345,16 @@ scoreSanctusMissaIILasso = {
   \new ChoirStaff <<
     \new Staff <<
       \context Staff <<
+        \set Staff.instrumentName = "SOPRAN"
+        \set Staff.shortInstrumentName = "S."
         \context Voice = "PartPOneVoiceOne" { \PartPOneVoiceOne }
         \new Lyrics \lyricsto "PartPOneVoiceOne" \PartPOneVoiceOneLyricsOne
       >>
     >>
     \new Staff <<
       \context Staff <<
+        \set Staff.instrumentName = "ALT"
+        \set Staff.shortInstrumentName = "A."
         \context Voice = "PartPTwoVoiceOne" { \PartPTwoVoiceOne }
         \new Lyrics \lyricsto "PartPTwoVoiceOne" \PartPTwoVoiceOneLyricsOne
         
@@ -386,6 +362,8 @@ scoreSanctusMissaIILasso = {
     >>
     \new Staff <<
       \context Staff <<
+        \set Staff.instrumentName = "TENOR"
+        \set Staff.shortInstrumentName = "T."
         \context Voice = "PartPThreeVoiceOne" { \PartPThreeVoiceOne }
         \new Lyrics \lyricsto "PartPThreeVoiceOne" \PartPThreeVoiceOneLyricsOne
       >>
@@ -393,6 +371,8 @@ scoreSanctusMissaIILasso = {
     
       \new Staff <<
         \context Staff <<
+          \set Staff.instrumentName = "BASS"
+          \set Staff.shortInstrumentName = "B."
           \context Voice = "PartPFourVoiceOne" 
           \with {
             \consists "Ligature_bracket_engraver"

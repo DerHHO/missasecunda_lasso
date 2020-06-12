@@ -6,6 +6,22 @@
 \include "../Noten/Sanctus_Noten.ly"
 \include "../Noten/Agnus_Noten.ly"
 
+\header {
+  title = "Missa secunda"
+  composer = "Orlando di Lasso (1532–1594)"
+}
+
+\paper {  
+    
+    ragged-right = ##f
+    ragged-last-bottom = ##f
+    left-margin = 1.3\cm
+right-margin = 1\cm
+#(include-special-characters)
+
+	
+}
+
 \book {
   \bookOutputName "Partitur"
   \score {

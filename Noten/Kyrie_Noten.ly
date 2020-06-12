@@ -53,12 +53,9 @@ sopranNotenKyrie = \tempTranspose \relative b' {
 }
 
 PartPOneVoiceOneLyricspartOneverseOne =  \lyricmode {
-  Ky -- ri -- e e --
-  lei -- _ "son," e -- _ lei -- "son." Chri -- ste e --
-  _ _ lei -- "son, " __ Chri -- ste e -- _ lei --
-  "son." Ky -- ri -- e e -- lei -- _ _ _ _ _
-  "son." Ky -- ri -- e e -- lei -- _ "son," Ky -- ri -- e, __
-  _ _ Ky -- ri -- e e -- lei -- _ "son."
+  Ky -- ri -- e e -- lei -- _ son, e -- _ lei -- son. Chri -- ste e -- _ _ lei -- son,  __ Chri -- ste e -- _ lei -- son. Ky -- ri -- e e -- lei -- _ _ _ _ _
+  son. Ky -- ri -- e e -- lei -- _ son, Ky -- ri -- e, __
+  _ _ Ky -- ri -- e e -- lei -- _ son.
 }
 
 altNotenKyrie = \tempTranspose \relative e' {
@@ -91,12 +88,8 @@ altNotenKyrie = \tempTranspose \relative e' {
 }
 
 PartPTwoVoiceOneLyricspartTwoverseOne =  \lyricmode {
-  Ky -- ri -- e e --
-  lei -- _ "son," Ky -- ri -- "e " __ _ e -- lei -- "son."
-  Chri -- ste e -- _ _ _ lei -- _ "son," Chri --
-  ste e -- lei -- "son." Ky -- ri -- e e -- lei -- _ "son," Ky --
-  ri -- e e -- lei -- "son." Ky -- ri -- e e -- lei -- "son," Ky -- ri
-  -- e e -- lei -- "son," Ky -- ri -- e e -- lei -- "son."
+  Ky -- ri -- e e -- lei -- _ son, Ky -- ri -- e  __ _ e -- lei -- son.
+  Chri -- ste e -- _ _ _ lei -- _ son, Chri -- ste e -- lei -- son. Ky -- ri -- e e -- lei -- _ son, Ky -- ri -- e e -- lei -- son. Ky -- ri -- e e -- lei -- son, Ky -- ri -- e e -- lei -- son, Ky -- ri -- e e -- lei -- son.
 }
 
 tenorNotenKyrie = \tempTranspose \relative b {
@@ -126,10 +119,9 @@ tenorNotenKyrie = \tempTranspose \relative b {
 
 PartPThreeVoiceOneLyricspartThreeverseOne =  \lyricmode {
   Ky -- ri -- e
-  e -- lei -- _ "son." Chri -- ste e -- lei -- "son," Chri -- ste
-  -- e -- lei -- _ "son." Ky -- ri -- e e -- lei -- _ "son,"
-  Ky -- ri -- "e," Ky -- ri -- e e -- lei -- _ _ _
-  "son."
+  e -- lei -- _ son. Chri -- ste e -- lei -- son, Chri -- ste -- e -- lei -- _ son. Ky -- ri -- e e -- lei -- _ son,
+  Ky -- ri -- e, Ky -- ri -- e e -- lei -- _ _ _
+  son.
 }
 
 bassNotenKyrie = \tempTranspose \relative b {
@@ -162,13 +154,8 @@ bassNotenKyrie = \tempTranspose \relative b {
 }
 
 PartPFourVoiceOneLyricspartFourverseOne =  \lyricmode {
-  Ky -- ri -- e e
-  -- lei -- _ "son," Ky -- ri -- _ e e -- lei -- _
-  "son." Chri -- ste e -- _ _ _ lei -- "son," Chri --
-  ste e -- _ _ _ _ _ _ lei -- "son." Ky
-  -- ri -- e e -- lei -- _ "son," e -- lei -- _ "son," e --
-  lei -- "son," Ky -- ri -- e e -- lei -- "son," Ky -- ri -- e e --
-  lei -- _ _ "son."
+  Ky -- ri -- e e -- lei -- _ son, Ky -- ri -- _ e e -- lei -- _
+  son. Chri -- ste e -- _ _ _ lei -- son, Chri -- ste e -- _ _ _ _ _ _ lei -- son. Ky -- ri -- e e -- lei -- _ son, e -- lei -- _ son, e -- lei -- son, Ky -- ri -- e e -- lei -- son, Ky -- ri -- e e -- lei -- _ _ son.
 }
 
 % The score definition
@@ -176,7 +163,7 @@ scoreKyrieMissaIILasso = {
   <<
     \new ChoirStaff <<
       \new Staff <<
-        \set Staff.instrumentName = "Sopran"
+        \set Staff.instrumentName = "SOPRAN"
         \set Staff.shortInstrumentName = "S"
         \context Staff <<
           \context Voice = "PartPOneVoiceOne" { \optionalTranspose \sopranNotenKyrie }
@@ -184,7 +171,7 @@ scoreKyrieMissaIILasso = {
         >>
       >>
       \new Staff <<
-        \set Staff.instrumentName = "Alt"
+        \set Staff.instrumentName = "ALT"
         \set Staff.shortInstrumentName = "A"
         \context Staff <<
           \context Voice = "PartPTwoVoiceOne" { \optionalTranspose \altNotenKyrie }
@@ -192,7 +179,7 @@ scoreKyrieMissaIILasso = {
         >>
       >>
       \new Staff <<
-        \set Staff.instrumentName = "Tenor"
+        \set Staff.instrumentName = "TENOR"
         \set Staff.shortInstrumentName = "T"
         \context Staff <<
           \context Voice = "PartPThreeVoiceOne" { \optionalTranspose \tenorNotenKyrie }
@@ -200,7 +187,7 @@ scoreKyrieMissaIILasso = {
         >>
       >>
       \new Staff <<
-        \set Staff.instrumentName = "Bass"
+        \set Staff.instrumentName = "BASS"
         \set Staff.shortInstrumentName = "B"
         \context Staff <<
           \context Voice = "PartPFourVoiceOne" { \optionalTranspose \bassNotenKyrie }
@@ -213,7 +200,7 @@ scoreKyrieMissaIILasso = {
   >>
 }
 
-%***Arbeitspartitur
+%{Arbeitspartitur
 \book {
   \bookOutputName "Kyrie-Arbeitspartitur"
   \score {
@@ -229,4 +216,4 @@ scoreKyrieMissaIILasso = {
     }
   }
 }
-%Arbeitspartitur***
+Arbeitspartitur%}

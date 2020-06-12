@@ -107,27 +107,13 @@ sopranNotenGloria = \tempTranspose \relative a' {
 
 PartPOneVoiceOneLyricspartOneverseOne =  \lyricmode {
   Et in ter -- ra
-  pax ho -- mi -- ni -- bus bo -- nae vo -- lun -- ta -- _ _
-  "tis." Be -- ne -- di -- ci -- mus "te." A -- do -- ra -- mus "te."
-  Glo -- ri -- fi -- ca -- _ _ mus "te." Gra -- ti -- as a
-  -- gi -- mus ti -- bi pro -- pter ma -- "gnam," pro -- pter ma --
-  gnam glo -- ri -- am tu -- _ "am." Rex cae -- le -- "stis," De
-  -- us Pa -- ter om -- ni -- po -- "tens." Do -- mi -- ne Fi --
-  _ _ li Je -- _ su Chri -- "ste." Do -- mi -- ne De --
-  "us," A -- _ _ "gnus " __ _ De -- _ _ "i,"
-  Fi -- li -- us Pa -- "tris," Fi -- li -- us Pa -- "tris," Fi -- li
-  -- us Pa -- "tris," Fi -- li -- us Pa -- "tris," Fi -- li -- us Pa
-  -- "tris." Qui tol -- lis pec -- ca -- ta mun -- "di," mi -- se --
-  re -- re no -- "bis." Qui tol -- lis pec -- ca -- ta mun -- "di," su
-  -- sci -- pe de -- pre -- ca -- ti -- o -- nem no -- "stram." Qui se
-  -- des ad de -- xte -- ram Pa -- "tris," mi -- se -- re -- re no --
-  "bis." Quo -- ni -- am tu so -- lus San -- "ctus." Tu so -- lus Do
-  -- mi -- "nus." Tu so -- lus Al -- tis -- si -- "mus, " __ Je -- su
-  Chri -- _ _ "ste." Cum San -- _ cto Spi -- ri -- tu
-  in glo -- ri -- a De -- i Pa -- "tris." A -- _ _ "men." in
-  glo -- ri -- "a," in glo -- ri -- a De -- "i," in glo -- ri -- a De
-  -- "i," in glo -- ri -- a De -- i Pa -- "tris." A -- _ _
-  "men."
+  pax ho -- mi -- ni -- bus bo -- næ vo -- lun -- ta -- _ _
+  tis. Be -- ne -- di -- ci -- mus te. A -- do -- ra -- mus te.
+  Glo -- ri -- fi -- ca -- _ _ mus te. Gra -- ti -- as a -- gi -- mus ti -- bi pro -- pter ma -- gnam, pro -- pter ma -- gnam glo -- ri -- am tu -- _ am. Rex cæ -- le -- stis, De -- us Pa -- ter om -- ni -- po -- tens. Do -- mi -- ne Fi -- _ _ li Je -- _ su Chri -- ste. Do -- mi -- ne De -- us, A -- _ _ gnus  __ _ De -- _ _ i,
+  Fi -- li -- us Pa -- tris, Fi -- li -- us Pa -- tris, Fi -- li -- us Pa -- tris, Fi -- li -- us Pa -- tris, Fi -- li -- us Pa -- tris. Qui tol -- lis pec -- ca -- ta mun -- di, mi -- se -- re -- re no -- bis. Qui tol -- lis pec -- ca -- ta mun -- di, su -- sci -- pe de -- pre -- ca -- ti -- o -- nem no -- stram. Qui se -- des ad de -- xte -- ram Pa -- tris, mi -- se -- re -- re no -- bis. Quo -- ni -- am tu so -- lus San -- ctus. Tu so -- lus Do -- mi -- nus. Tu so -- lus Al -- tis -- si -- mus,  __ Je -- su
+  Chri -- _ _ ste. Cum San -- _ cto Spi -- ri -- tu -- in glo -- ri -- a De -- i Pa -- tris. A -- _ _ men. in
+  glo -- ri -- a, in glo -- ri -- a De -- i, in glo -- ri -- a De -- i, in glo -- ri -- a De -- i Pa -- tris. A -- _ _
+  men.
 }
 
 altNotenGloria = \tempTranspose \relative e' {
@@ -212,26 +198,10 @@ altNotenGloria = \tempTranspose \relative e' {
 
 PartPTwoVoiceOneLyricspartTwoverseOne =  \lyricmode {
   Et in ter -- ra
-  pax ho -- mi -- ni -- bus bo -- _ _ _ _ næ vo -- lun -- ta -- "tis."
-  Be -- ne -- di -- ci -- mus "te." A -- do -- ra -- mus "te." Glo --
-  ri -- fi -- ca -- mus "te." Gra -- ti -- "as " __ a -- gi -- mus ti
-  -- bi pro -- pter ma -- gnam glo -- ri -- am tu -- "am," glo -- ri
-  -- am tu -- "am." Rex cae -- le -- "stis," De -- us Pa -- ter om --
-  ni -- po -- "tens." Do -- mi -- ne Fi -- _ _ li Je --
-  _ _ su Chri -- "ste." Do -- mi -- ne De -- "us," Do -- mi
-  -- ne De -- "us," A -- gnus De -- "i," Fi -- li -- us Pa -- "tris,"
-  Fi -- li -- us Pa -- "tris," Fi -- li -- us Pa -- "tris," Fi -- li
-  -- us Pa -- "tris," Fi -- li -- us Pa -- "tris." Qui tol -- lis pec
-  -- ca -- ta mun -- "di," mi -- se -- re -- re no -- "bis." Qui tol
-  -- lis pec -- ca -- ta mun -- "di," su -- sci -- pe de -- pre -- ca
-  -- ti -- o -- nem no -- _ "stram." Qui se -- des ad de -- xte
-  -- ram Pa -- "tris," mi -- se -- re -- re no -- "bis." Quo -- ni --
-  am tu so -- lus San -- "ctus." Tu so -- lus Do -- mi -- "nus." Tu so
-  -- lus Al -- tis -- si -- "mus," Je -- su Chri -- _ "ste." Cum
-  San -- _ cto Spi -- ri -- tu in glo -- ri -- "a," in glo -- ri
-  -- a De -- i Pa -- "tris." A -- "men." in glo -- ri -- a De -- i Pa
-  -- "tris." A -- "men." in glo -- ri -- a De -- "i," in glo -- ri --
-  a De -- i Pa -- "tris." A -- "men."
+  pax ho -- mi -- ni -- bus bo -- _ _ _ _ næ vo -- lun -- ta -- tis.
+  Be -- ne -- di -- ci -- mus te. A -- do -- ra -- mus te. Glo -- ri -- fi -- ca -- mus te. Gra -- ti -- as  __ a -- gi -- mus ti -- bi pro -- pter ma -- gnam glo -- ri -- am tu -- am, glo -- ri -- am tu -- am. Rex cæ -- le -- stis, De -- us Pa -- ter om -- ni -- po -- tens. Do -- mi -- ne Fi -- _ _ li Je -- _ _ su Chri -- ste. Do -- mi -- ne De -- us, Do -- mi -- ne De -- us, A -- gnus De -- i, Fi -- li -- us Pa -- tris,
+  Fi -- li -- us Pa -- tris, Fi -- li -- us Pa -- tris, Fi -- li -- us Pa -- tris, Fi -- li -- us Pa -- tris. Qui tol -- lis pec -- ca -- ta mun -- di, mi -- se -- re -- re no -- bis. Qui tol -- lis pec -- ca -- ta mun -- di, su -- sci -- pe de -- pre -- ca -- ti -- o -- nem no -- _ stram. Qui se -- des ad de -- xte -- ram Pa -- tris, mi -- se -- re -- re no -- bis. Quo -- ni -- am tu so -- lus San -- ctus. Tu so -- lus Do -- mi -- nus. Tu so -- lus Al -- tis -- si -- mus, Je -- su Chri -- _ ste. Cum
+  San -- _ cto Spi -- ri -- tu -- in glo -- ri -- a, in glo -- ri -- a De -- i Pa -- tris. A -- men. in glo -- ri -- a De -- i Pa -- tris. A -- men. in glo -- ri -- a De -- i, in glo -- ri -- a De -- i Pa -- tris. A -- men.
 }
 
 tenorNotenGloria = \tempTranspose \relative a {
@@ -316,27 +286,13 @@ tenorNotenGloria = \tempTranspose \relative a {
 }
 
 PartPThreeVoiceOneLyricspartThreeverseOne =  \lyricmode {
-  Et in ter --
-  ra pax ho -- mi -- ni -- bus bo -- nae vo -- lun -- ta -- "tis." Lau
-  -- da -- mus "te." A -- do -- ra -- mus "te." Glo -- ri -- fi -- ca
-  -- mus "te." Gra -- ti -- as a -- gi -- "mus " __ _ _ ti -- bi
-  pro -- pter ma -- "gnam," pro -- pter ma -- gnam glo -- ri -- am tu
-  -- "am." Do -- mi -- ne De -- _ _ "us," Rex cae -- le --
-  "stis," De -- us Pa -- ter om -- ni -- po -- "tens." u -- ni -- ge
-  -- ni -- te Je -- su Chri -- "ste." Do -- mi -- ne De -- "us," A --
-  _ gnus De -- "i," Fi -- li -- us Pa -- "tris," Fi -- li -- us
-  Pa -- "tris," Fi -- li -- us Pa -- "tris," Fi -- li -- us Pa --
-  "tris," Fi -- li -- us Pa -- _ "tris." Qui tol -- lis pec -- ca
-  -- ta mun -- "di," mi -- se -- re -- re no -- "bis." Qui tol -- lis
-  pec -- ca -- ta mun -- "di," su -- sci -- pe de -- pre -- ca -- ti
-  -- o -- nem no -- "stram." Qui se -- des ad de -- xte -- ram Pa --
-  "tris," mi -- se -- re -- re no -- _ "bis." Quo -- ni -- am tu
-  so -- lus San -- "ctus." Tu so -- lus Do -- mi -- "nus." Tu so --
-  "lus " __ Al -- tis -- si -- "mus," Je -- su Chri -- "ste." Cum San
-  -- _ "cto," cum San -- _ cto Spi -- ri -- tu in glo -- ri
-  -- a De -- i Pa -- "tris." A -- "men." in glo -- ri -- a De -- "i,"
-  in glo -- ri -- a De -- i Pa -- "tris," in glo -- ri -- "a," in glo
-  -- ri -- a De -- i Pa -- "tris." A -- "men."
+  Et in ter -- ra pax ho -- mi -- ni -- bus bo -- næ vo -- lun -- ta -- tis. Lau -- da -- mus te. A -- do -- ra -- mus te. Glo -- ri -- fi -- ca -- mus te. Gra -- ti -- as a -- gi -- mus  __ _ _ ti -- bi
+  pro -- pter ma -- gnam, pro -- pter ma -- gnam glo -- ri -- am tu -- am. Do -- mi -- ne De -- _ _ us, Rex cæ -- le -- stis, De -- us Pa -- ter om -- ni -- po -- tens. 
+  …u -- ni -- ge -- ni -- te Je -- su Chri -- ste. Do -- mi -- ne De -- us, A -- _ gnus De -- i, Fi -- li -- us Pa -- tris, Fi -- li -- us
+  Pa -- tris, Fi -- li -- us Pa -- tris, Fi -- li -- us Pa -- tris, Fi -- li -- us Pa -- _ tris. Qui tol -- lis pec -- ca -- ta mun -- di, mi -- se -- re -- re no -- bis. Qui tol -- lis
+  pec -- ca -- ta mun -- di, su -- sci -- pe de -- pre -- ca -- ti -- o -- nem no -- stram. Qui se -- des ad de -- xte -- ram Pa -- tris, mi -- se -- re -- re no -- _ bis. Quo -- ni -- am tu
+  so -- lus San -- ctus. Tu so -- lus Do -- mi -- nus. Tu so -- lus  __ Al -- tis -- si -- mus, Je -- su Chri -- ste. Cum San -- _ cto, cum San -- _ cto Spi -- ri -- tu -- in glo -- ri -- a De -- i Pa -- tris. A -- men. in glo -- ri -- a De -- i,
+  in glo -- ri -- a De -- i Pa -- tris, in glo -- ri -- a, in glo -- ri -- a De -- i Pa -- tris. A -- men.
 }
 
 bassNotenGloria = \tempTranspose \relative a {
@@ -421,25 +377,24 @@ bassNotenGloria = \tempTranspose \relative a {
 }
 
 PartPFourVoiceOneLyricspartFourverseOne =  \lyricmode {
-  Et in ter -- ra
-  pax ho -- mi -- ni -- bus bo -- nae vo -- lun -- ta -- "tis." Lau --
-  da -- mus "te." A -- do -- ra -- mus "te." Glo -- ri -- fi -- ca --
-  _ _ mus "te." Gra -- ti -- as a -- gi -- mus ti -- bi pro
-  -- pter ma -- "gnam," pro -- pter ma -- gnam glo -- ri -- am tu --
-  "am." Do -- mi -- ne De -- _ _ "us," Rex cae -- le --
-  "stis," De -- us Pa -- ter om -- ni -- _ po -- "tens." u -- ni
-  -- ge -- ni -- te Je -- _ _ su Chri -- "ste." Do -- mi --
-  ne De -- "us," A -- _ _ gnus De -- "i," Fi -- li -- us Pa
-  -- "tris," Fi -- li -- us Pa -- "tris," Fi -- li -- us Pa -- "tris,"
-  Fi -- li -- us Pa -- "tris." Qui tol -- lis pec -- ca -- ta mun --
-  "di," mi -- se -- re -- re no -- "bis." su -- sci -- pe de -- pre --
-  ca -- ti -- o -- nem no -- "stram." Qui se -- des ad de -- xte --
-  ram Pa -- "tris," mi -- se -- re -- re no -- "bis." Quo -- ni -- am
-  tu so -- lus San -- "ctus." Tu so -- lus Do -- mi -- "nus." Tu so --
-  lus Al -- tis -- si -- "mus," Je -- su Chri -- _ "ste." Cum San
-  -- _ cto Spi -- ri -- "tu," cum San -- cto Spi -- ri -- tu in
-  glo -- ri -- a De -- i Pa -- "tris." A -- "men." in glo -- ri -- a, __ _ _ in glo -- ri -- a De -- i Pa -- "tris," in glo --
-  ri -- a De -- i Pa -- "tris." A -- "men."
+  Et in ter -- ra pax ho -- mi -- ni -- bus 
+  bo -- næ vo -- lun -- ta -- tis. 
+  Lau -- da -- mus te. A -- do -- ra -- mus te. 
+  Glo -- ri -- fi -- ca -- _ _ mus te. 
+  Gra -- ti -- as a -- gi -- mus ti -- bi pro -- pter ma -- gnam, 
+  pro -- pter ma -- gnam glo -- ri -- am tu -- am. 
+  Do -- mi -- ne De -- _ _ us, Rex cæ -- le -- stis,
+  De -- us Pa -- ter om -- ni -- _ po -- tens. 
+  …u -- ni -- ge -- ni -- te Je -- _ _ su Chri -- ste. 
+  Do -- mi -- ne De -- us, A -- _ _ gnus De -- i, 
+  Fi -- li -- us Pa -- tris, Fi -- li -- us Pa -- tris, 
+  Fi -- li -- us Pa -- tris,
+  Fi -- li -- us Pa -- tris. 
+  Qui tol -- lis pec -- ca -- ta mun -- di, mi -- se -- re -- re no -- bis. su -- sci -- pe de -- pre -- ca -- ti -- o -- nem no -- stram. Qui se -- des ad de -- xte -- ram Pa -- tris, mi -- se -- re -- re no -- bis. Quo -- ni -- am
+  tu so -- lus San -- ctus. 
+  Tu so -- lus Do -- mi -- nus. Tu so -- lus Al -- tis -- si -- mus, Je -- su Chri -- _ ste. Cum San -- _ cto Spi -- ri -- tu, cum San -- cto Spi -- ri -- tu -- in
+  glo -- ri -- a De -- i Pa -- tris. 
+  A -- men. in glo -- ri -- a, __ _ _ in glo -- ri -- a De -- i Pa -- tris, in glo -- ri -- a De -- i Pa -- tris. A -- men.
 }
 
 % The score definition
@@ -486,7 +441,7 @@ scoreGloriaMissaIILasso = {
   
 }
 
-%***Arbeitspartitur
+%{Arbeitspartitur
 #(set-global-staff-size 16)
 \score {
   \scoreGloriaMissaIILasso
@@ -501,4 +456,4 @@ scoreGloriaMissaIILasso = {
     }
   }
 }
-%Arbeitspartitur***
+Arbeitspartitur%}

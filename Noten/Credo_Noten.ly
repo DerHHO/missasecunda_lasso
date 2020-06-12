@@ -143,40 +143,21 @@ PartPOneVoiceOne = \tempTranspose \relative b' {
 
 PartPOneVoiceOneLyricspartOneverseOne =  \lyricmode {
   Fa -- cto -- rem
-  cae -- li et ter -- \skip2 \skip2 \skip2 "rea," vi -- si -- bi -- li
-  -- um o -- mni -- um et in -- vi -- si -- bi -- li -- "um." Et in u
-  -- num Do -- mi -- num Je -- sum Chri -- "stum," Fi -- li -- um De
-  -- i u -- ni -- ge -- ni -- "tum," Et ex Pa -- tre na -- tum an --
-  te o -- mni -- a sae -- cu -- "la." Lu -- men de lu -- mi -- "ne,"
-  De -- um ve -- rum de De -- "o " __ \skip2 \skip2 ve -- \skip2 "ro."
-  Ge -- ni -- "tum," non fa -- "ctum," con -- sub -- stan -- ti -- a
-  -- lem Pa -- \skip2 \skip2 \skip2 \skip2 "tri:" per quem o -- mni --
-  a fa -- cta "sunt." et pro -- pter no -- stram sa -- lu -- \skip2
-  tem de -- scen -- dit de cae -- "lis," de -- scen -- dit de cae --
-  "lis." Et in -- car -- na -- tus est de Spi -- ri -- tu San -- cto
-  ex Ma -- ri -- a Vir -- gi -- "ne:" Et ho -- mo fa -- ctus "est," Et
-  ho -- mo fa -- \skip2 \skip2 ctus "est." Cru -- ci -- fi -- xus e --
-  ti -- am pro no -- bis sub Pon -- ti -- o Pi -- la -- "to," sub Pon
-  -- ti -- o Pi -- la -- "to:" pas -- "sus," "et " __ \skip2 \skip2 se
-  -- pul -- "tus " __ \skip2 \skip2 "est." Et re -- sur -- re -- xit
-  ter -- ti -- a di -- "e," se -- cun -- dum scri -- ptu -- \skip2
-  "ras." Et a -- scen -- \skip2 dit in cae -- \skip2 \skip2 \skip2
-  \skip2 "lum: " __ se -- det ad dex -- te -- "ram " __ \skip2 \skip2
-  \skip2 \skip2 \skip2 Pa -- \skip2 \skip2 "tris." Et i -- te -- rum
-  ven -- tu -- rus est cum glo -- ri -- a ju -- di -- ca -- re vi --
-  vos et mor -- tu -- "os:" Cu -- jus re -- gni non e -- rit fi --
-  "nis." Et in Spi -- ri -- tum San -- ctum Do -- mi -- "num," et vi
-  -- vi -- fi -- can -- "tem:" Fi -- li -- o -- que pro -- ce --
-  \skip2 \skip2 \skip2 \skip2 \skip2 "dit." Qui cum Pa -- "tre," et Fi
-  -- li -- o si -- mul a -- do -- ra -- \skip2 \skip2 "tur," et con --
-  glo -- ri -- fi -- ca -- \skip2 \skip2 "tur:" Qui lo -- cu -- tus
-  est per Pro -- phe -- "tas." Et u -- "nam," san -- "ctam," ca -- tho
-  -- li -- cam et a -- po -- sto -- li -- cam Ec -- cle -- si -- "am."
-  Con -- fi -- te -- or un -- um ba -- pti -- sma in re -- mis -- si
-  -- o -- nem pec -- ca -- to -- "rum." Et ex -- pe -- cto re -- sur
-  -- re -- cti -- o -- nem mor -- tu -- o -- "rum " __ Et vi -- tam
-  ven -- tu -- ri sae -- cu -- "li." A -- "men," sae -- cu -- "li,"
-  sae -- cu -- "li." A -- \skip2 \skip2 "men."
+  cæ -- li et ter -- \skip2 \skip2 \skip2 rea, vi -- si -- bi -- li -- um o -- mni -- um et in -- vi -- si -- bi -- li -- um. Et in u -- num Do -- mi -- num Je -- sum Chri -- stum, Fi -- li -- um De -- i u -- ni -- ge -- ni -- tum, Et ex Pa -- tre na -- tum an -- te o -- mni -- a sæ -- cu -- la. Lu -- men de lu -- mi -- ne,
+  De -- um ve -- rum de De -- o  __ \skip2 \skip2 ve -- \skip2 ro.
+  Ge -- ni -- tum, non fa -- ctum, con -- sub -- stan -- ti -- a -- lem Pa -- \skip2 \skip2 \skip2 \skip2 tri: per quem o -- mni -- a fa -- cta sunt. et pro -- pter no -- stram sa -- lu -- \skip2
+  tem de -- scen -- dit de cæ -- lis, de -- scen -- dit de cæ -- lis. Et in -- car -- na -- tus est de Spi -- ri -- tu San -- cto
+  ex Ma -- ri -- a Vir -- gi -- ne: Et ho -- mo fa -- ctus est, Et
+  ho -- mo fa -- \skip2 \skip2 ctus est. Cru -- ci -- fi -- xus e -- ti -- am pro no -- bis sub Pon -- ti -- o Pi -- la -- to, sub Pon -- ti -- o Pi -- la -- to: pas -- sus, et  __ \skip2 \skip2 se -- pul -- tus  __ \skip2 \skip2 est. Et re -- sur -- re -- xit
+  ter -- ti -- a di -- e, se -- cun -- dum scri -- ptu -- \skip2
+  ras. Et a -- scen -- \skip2 dit in cæ -- \skip2 \skip2 \skip2
+  \skip2 lum:  __ se -- det ad dex -- te -- ram  __ \skip2 \skip2
+  \skip2 \skip2 \skip2 Pa -- \skip2 \skip2 tris. Et i -- te -- rum
+  ven -- tu -- rus est cum glo -- ri -- a ju -- di -- ca -- re vi -- vos et mor -- tu -- os: Cu -- jus re -- gni non e -- rit fi -- nis. Et in Spi -- ri -- tum San -- ctum Do -- mi -- num, et vi -- vi -- fi -- can -- tem: Fi -- li -- o -- que pro -- ce -- \skip2 \skip2 \skip2 \skip2 \skip2 dit. Qui cum Pa -- tre, et Fi -- li -- o si -- mul a -- do -- ra -- \skip2 \skip2 tur, et con -- glo -- ri -- fi -- ca -- \skip2 \skip2 tur: Qui lo -- cu -- tus
+  est per Pro -- phe -- tas. Et u -- nam, san -- ctam, ca -- tho -- li -- cam et a -- po -- sto -- li -- cam Ec -- cle -- si -- am.
+  Con -- fi -- te -- or un -- um ba -- pti -- sma in re -- mis -- si -- o -- nem pec -- ca -- to -- rum. Et ex -- pe -- cto re -- sur -- re -- cti -- o -- nem mor -- tu -- o -- rum  __ Et vi -- tam
+  ven -- tu -- ri sæ -- cu -- li. A -- men, sæ -- cu -- li,
+  sæ -- cu -- li. A -- \skip2 \skip2 men.
 }
 PartPTwoVoiceOne = \tempTranspose \relative e' {
   \globalCredoLassoMissaII
@@ -291,36 +272,18 @@ PartPTwoVoiceOne = \tempTranspose \relative e' {
 
 PartPTwoVoiceOneLyricspartTwoverseOne =  \lyricmode {
   Fa -- cto -- rem
-  cae -- \skip2 \skip2 li et ter -- "rae, " __ vi -- si -- bi -- li --
-  um o -- mni -- um et in -- vi -- si -- bi -- li -- "um." Et in u --
-  num Do -- mi -- num Je -- sum Chri -- "stum," Fi -- li -- um De -- i
-  u -- ni -- ge -- ni -- "tum," Et ex Pa -- tre na -- tum an -- te o
-  -- mni -- a sae -- cu -- "la." Lu -- men de lu -- mi -- "ne," De --
-  um ve -- rum de De -- o ve -- "ro." Ge -- ni -- "tum," non fa --
-  "ctum," con -- sub -- stan -- ti -- a -- lem Pa -- "tri:" per quem o
-  -- mni -- a fa -- cta "sunt. " __ et pro -- pter no -- stram sa --
-  lu -- tem de -- scen -- dit de cae -- "lis," de -- scen -- dit de
-  cae -- "lis." Et in -- car -- na -- tus est de Spi -- ri -- tu San
-  -- cto ex Ma -- ri -- a Vir -- gi -- "ne:" Et ho -- mo fa -- ctus
-  "est, " __ \skip2 \skip2 Et ho -- mo fa -- ctus "est." Et re -- sur
-  -- re -- xit ter -- ti -- a di -- "e," se -- cun -- dum scri -- ptu
-  -- "ras." Et a -- scen -- \skip2 \skip2 "dit " __ \skip2 \skip2 "in
-    " __ \skip2 \skip2 cae -- \skip2 "lum:" se -- det ad dex -- te --
-  ram Pa -- "tris," se -- det ad dex -- te -- "ram " __ \skip2 \skip2
-  Pa -- \skip2 "tris." Et i -- te -- rum ven -- tu -- rus est cum glo
-  -- ri -- a ju -- di -- ca -- re vi -- vos et mor -- tu -- "os:" Cu
-  -- jus re -- gni non e -- rit fi -- "nis." Et in Spi -- ri -- tum
-  San -- ctum Do -- mi -- "num," et vi -- vi -- fi -- can -- "tem:"
-  Qui ex Pa -- "tre," Fi -- li -- o -- que pro -- ce -- \skip2 \skip2
-  \skip2 \skip2 "dit." Qui cum Pa -- "tre," et Fi -- li -- o si -- mul
-  a -- do -- ra -- "tur," "et " __ con -- glo -- ri -- fi -- ca --
-  "tur:" Qui lo -- cu -- tus est per Pro -- phe -- "tas." Et u --
-  "nam," san -- "ctam," ca -- tho -- li -- cam et a -- po -- sto -- li
-  -- cam Ec -- cle -- si -- "am." Con -- fi -- te -- or un -- um ba --
-  pti -- sma in re -- mis -- si -- o -- nem pec -- ca -- to -- "rum."
-  Et ex -- pe -- cto re -- sur -- re -- cti -- o -- nem mor -- tu -- o
-  -- rum Et vi -- tam ven -- tu -- ri sae -- cu -- "li." A -- "men,"
-  sae -- cu -- "li." A -- "men." sae -- cu -- "li." A -- "men."
+  cæ -- \skip2 \skip2 li et ter -- ræ,  __ vi -- si -- bi -- li -- um o -- mni -- um et in -- vi -- si -- bi -- li -- um. Et in u -- num Do -- mi -- num Je -- sum Chri -- stum, Fi -- li -- um De -- i
+  u -- ni -- ge -- ni -- tum, Et ex Pa -- tre na -- tum an -- te o -- mni -- a sæ -- cu -- la. Lu -- men de lu -- mi -- ne, De -- um ve -- rum de De -- o ve -- ro. Ge -- ni -- tum, non fa -- ctum, con -- sub -- stan -- ti -- a -- lem Pa -- tri: per quem o -- mni -- a fa -- cta sunt.  __ et pro -- pter no -- stram sa -- lu -- tem de -- scen -- dit de cæ -- lis, de -- scen -- dit de
+  cæ -- lis. Et in -- car -- na -- tus est de Spi -- ri -- tu San -- cto ex Ma -- ri -- a Vir -- gi -- ne: Et ho -- mo fa -- ctus
+  est,  __ \skip2 \skip2 Et ho -- mo fa -- ctus est. Et re -- sur -- re -- xit ter -- ti -- a di -- e, se -- cun -- dum scri -- ptu -- ras. Et a -- scen -- \skip2 \skip2 dit  __ \skip2 \skip2 in
+     __ \skip2 \skip2 cæ -- \skip2 lum: se -- det ad dex -- te -- ram Pa -- tris, se -- det ad dex -- te -- ram  __ \skip2 \skip2
+  Pa -- \skip2 tris. Et i -- te -- rum ven -- tu -- rus est cum glo -- ri -- a ju -- di -- ca -- re vi -- vos et mor -- tu -- os: Cu -- jus re -- gni non e -- rit fi -- nis. Et in Spi -- ri -- tum
+  San -- ctum Do -- mi -- num, et vi -- vi -- fi -- can -- tem:
+  Qui ex Pa -- tre, Fi -- li -- o -- que pro -- ce -- \skip2 \skip2
+  \skip2 \skip2 dit. Qui cum Pa -- tre, et Fi -- li -- o si -- mul
+  a -- do -- ra -- tur, et  __ con -- glo -- ri -- fi -- ca -- tur: Qui lo -- cu -- tus est per Pro -- phe -- tas. Et u -- nam, san -- ctam, ca -- tho -- li -- cam et a -- po -- sto -- li -- cam Ec -- cle -- si -- am. Con -- fi -- te -- or un -- um ba -- pti -- sma in re -- mis -- si -- o -- nem pec -- ca -- to -- rum.
+  Et ex -- pe -- cto re -- sur -- re -- cti -- o -- nem mor -- tu -- o -- rum Et vi -- tam ven -- tu -- ri sæ -- cu -- li. A -- men,
+  sæ -- cu -- li. A -- men. sæ -- cu -- li. A -- men.
 }
 PartPThreeVoiceOne = \tempTranspose \relative b {
   \globalCredoLassoMissaII
@@ -441,39 +404,16 @@ PartPThreeVoiceOne = \tempTranspose \relative b {
 }
 
 PartPThreeVoiceOneLyricspartThreeverseOne =  \lyricmode {
-  Pa -- trem o
-  -- mni -- po -- ten -- "tem," fa -- cto -- rem cae -- li et ter --
-  "rae," vi -- si -- bi -- li -- um o -- mni -- um et in -- vi -- si
-  -- bi -- li -- "um." Et in u -- num Do -- mi -- num Je -- sum Chri
-  -- "stum," Fi -- li -- um De -- i u -- ni -- ge -- ni -- "tum," Et
-  ex Pa -- tre na -- tum an -- te o -- mni -- a sae -- cu -- "la." De
-  -- um de De -- "o," De -- um ve -- rum de De -- o ve -- \skip2 "ro."
-  Ge -- ni -- "tum," non fa -- "ctum," con -- sub -- stan -- ti -- a
-  -- lem Pa -- \skip2 "tri:" per quem o -- mni -- a fa -- cta "sunt."
-  Qui pro -- pter nos ho -- mi -- nes de -- scen -- dit de cae --
-  "lis," de -- scen -- dit de cae -- "lis." Et in -- car -- na -- tus
-  est de Spi -- ri -- tu San -- cto ex Ma -- ri -- a Vir -- gi --
-  "ne:" Et ho -- mo fa -- ctus "est," Et ho -- mo fa -- ctus "est."
-  Cru -- ci -- fi -- xus e -- ti -- am pro no -- bis sub Pon -- ti --
-  o Pi -- la -- "to," sub Pon -- ti -- o Pi -- la -- "to:" pas --
-  "sus," et se -- pul -- tus "est." ter -- ti -- a di -- "e," se --
-  cun -- dum scri -- ptu -- "ras." Et a -- scen -- \skip2 \skip2 "dit
-    " __ \skip2 \skip2 "in " __ \skip2 cae -- "lum:" se -- det ad dex --
-  te -- ram Pa -- \skip2 "tris," se -- det ad dex -- te -- "ram " __
-  \skip2 \skip2 \skip2 \skip2 \skip2 Pa -- "tris." Et i -- te -- rum
-  ven -- tu -- rus est cum glo -- ri -- a ju -- di -- ca -- re vi --
-  vos et mor -- tu -- "os:" Cu -- jus re -- gni non e -- rit fi --
-  "nis." Et in Spi -- ri -- tum San -- ctum Do -- mi -- "num," et vi
-  -- vi -- fi -- can -- "tem:" Qui ex Pa -- "tre," Fi -- li -- o --
-  que pro -- ce -- "dit." Qui cum Pa -- "tre," et Fi -- li -- o si --
-  mul a -- do -- ra -- "tur," et con -- glo -- ri -- fi -- ca --
-  "tur:" Qui lo -- cu -- tus est per Pro -- phe -- "tas." Et u --
-  "nam," san -- "ctam," ca -- tho -- li -- cam et a -- po -- sto -- li
-  -- cam Ec -- cle -- si -- "am." Con -- fi -- te -- or un -- um ba --
-  pti -- sma in re -- mis -- si -- o -- nem pec -- ca -- to -- "rum."
-  Et ex -- pe -- cto re -- sur -- re -- cti -- o -- nem mor -- tu -- o
-  -- "rum " __ Et vi -- tam ven -- tu -- ri sae -- cu -- "li." A --
-  "men," sae -- cu -- "li." A -- \skip2 "men. " __ \skip2
+  Pa -- trem o -- mni -- po -- ten -- tem, fa -- cto -- rem cæ -- li et ter -- ræ, vi -- si -- bi -- li -- um o -- mni -- um et in -- vi -- si -- bi -- li -- um. Et in u -- num Do -- mi -- num Je -- sum Chri -- stum, Fi -- li -- um De -- i u -- ni -- ge -- ni -- tum, Et
+  ex Pa -- tre na -- tum an -- te o -- mni -- a sæ -- cu -- la. De -- um de De -- o, De -- um ve -- rum de De -- o ve -- \skip2 ro.
+  Ge -- ni -- tum, non fa -- ctum, con -- sub -- stan -- ti -- a -- lem Pa -- \skip2 tri: per quem o -- mni -- a fa -- cta sunt.
+  Qui pro -- pter nos ho -- mi -- nes de -- scen -- dit de cæ -- lis, de -- scen -- dit de cæ -- lis. Et in -- car -- na -- tus
+  est de Spi -- ri -- tu San -- cto ex Ma -- ri -- a Vir -- gi -- ne: Et ho -- mo fa -- ctus est, Et ho -- mo fa -- ctus est.
+  Cru -- ci -- fi -- xus e -- ti -- am pro no -- bis sub Pon -- ti -- o Pi -- la -- to, sub Pon -- ti -- o Pi -- la -- to: pas -- sus, et se -- pul -- tus est. ter -- ti -- a di -- e, se -- cun -- dum scri -- ptu -- ras. Et a -- scen -- \skip2 \skip2 dit
+     __ \skip2 \skip2 in  __ \skip2 cæ -- lum: se -- det ad dex -- te -- ram Pa -- \skip2 tris, se -- det ad dex -- te -- ram  __
+  \skip2 \skip2 \skip2 \skip2 \skip2 Pa -- tris. Et i -- te -- rum
+  ven -- tu -- rus est cum glo -- ri -- a ju -- di -- ca -- re vi -- vos et mor -- tu -- os: Cu -- jus re -- gni non e -- rit fi -- nis. Et in Spi -- ri -- tum San -- ctum Do -- mi -- num, et vi -- vi -- fi -- can -- tem: Qui ex Pa -- tre, Fi -- li -- o -- que pro -- ce -- dit. Qui cum Pa -- tre, et Fi -- li -- o si -- mul a -- do -- ra -- tur, et con -- glo -- ri -- fi -- ca -- tur: Qui lo -- cu -- tus est per Pro -- phe -- tas. Et u -- nam, san -- ctam, ca -- tho -- li -- cam et a -- po -- sto -- li -- cam Ec -- cle -- si -- am. Con -- fi -- te -- or un -- um ba -- pti -- sma in re -- mis -- si -- o -- nem pec -- ca -- to -- rum.
+  Et ex -- pe -- cto re -- sur -- re -- cti -- o -- nem mor -- tu -- o -- rum  __ Et vi -- tam ven -- tu -- ri sæ -- cu -- li. A -- men, sæ -- cu -- li. A -- \skip2 men.  __ \skip2
 }
 PartPFourVoiceOne = \tempTranspose \relative e {
   \clef "bass" 
@@ -576,32 +516,11 @@ PartPFourVoiceOne = \tempTranspose \relative e {
 }
 
 PartPFourVoiceOneLyricspartFourverseOne =  \lyricmode {
-  Pa -- trem o --
-  mni -- po -- ten -- "tem, " __ \skip2 \skip2 fa -- cto -- rem cae --
-  li et ter -- "rae," vi -- si -- bi -- li -- um o -- mni -- um et in
-  -- vi -- si -- bi -- li -- "um." Et in u -- num Do -- mi -- num Je
-  -- sum Chri -- "stum," Fi -- li -- um De -- i u -- ni -- ge -- ni --
-  "tum," Et ex Pa -- tre na -- tum an -- te o -- mni -- a sae -- cu --
-  "la." De -- um de De -- "o," De -- um ve -- "rum " __ \skip2 \skip2
-  de De -- o ve -- "ro." Ge -- ni -- "tum," non fa -- "ctum," con --
-  sub -- stan -- ti -- a -- lem Pa -- "tri:" per quem o -- mni -- a fa
-  -- cta "sunt." Qui pro -- pter nos ho -- mi -- nes de -- scen -- dit
-  de cae -- "lis," de -- scen -- dit de cae -- "lis." Et in -- car --
-  na -- tus est de Spi -- ri -- tu San -- cto ex Ma -- ri -- a Vir --
-  gi -- "ne:" Et ho -- mo fa -- ctus "est," Et ho -- mo fa -- ctus
-  "est." Et i -- te -- rum ven -- tu -- rus est cum glo -- ri -- a ju
-  -- di -- ca -- re vi -- vos et mor -- tu -- "os:" Cu -- jus re --
-  gni non e -- rit fi -- "nis." Et in Spi -- ri -- tum San -- ctum Do
-  -- mi -- "num," et vi -- vi -- fi -- can -- "tem:" Fi -- li -- o --
-  que pro -- ce -- "dit." Qui cum Pa -- "tre," et Fi -- li -- o si --
-  mul a -- do -- ra -- "tur," et con -- glo -- ri -- fi -- ca --
-  "tur:" Qui lo -- cu -- tus est per Pro -- phe -- "tas." Et u --
-  "nam," san -- "ctam," ca -- tho -- li -- cam et a -- po -- sto -- li
-  -- cam Ec -- cle -- si -- "am." Con -- fi -- te -- or un -- um ba --
-  pti -- sma in re -- mis -- si -- o -- nem pec -- ca -- to -- "rum."
-  Et ex -- pe -- cto re -- sur -- re -- cti -- o -- nem mor -- tu -- o
-  -- "rum" __ Et vi -- tam ven -- tu -- ri sae -- cu -- "li." A --
-  "men," sae -- cu -- "li." A -- "men." sae -- cu -- "li." A -- "men."
+  Pa -- trem o -- mni -- po -- ten -- tem,  __ \skip2 \skip2 fa -- cto -- rem cæ -- li et ter -- ræ, vi -- si -- bi -- li -- um o -- mni -- um et in -- vi -- si -- bi -- li -- um. Et in u -- num Do -- mi -- num Je -- sum Chri -- stum, Fi -- li -- um De -- i u -- ni -- ge -- ni -- tum, Et ex Pa -- tre na -- tum an -- te o -- mni -- a sæ -- cu -- la. De -- um de De -- o, De -- um ve -- rum  __ \skip2 \skip2
+  de De -- o ve -- ro. Ge -- ni -- tum, non fa -- ctum, con -- sub -- stan -- ti -- a -- lem Pa -- tri: per quem o -- mni -- a fa -- cta sunt. Qui pro -- pter nos ho -- mi -- nes de -- scen -- dit
+  de cæ -- lis, de -- scen -- dit de cæ -- lis. Et in -- car -- na -- tus est de Spi -- ri -- tu San -- cto ex Ma -- ri -- a Vir -- gi -- ne: Et ho -- mo fa -- ctus est, Et ho -- mo fa -- ctus
+  est. Et i -- te -- rum ven -- tu -- rus est cum glo -- ri -- a ju -- di -- ca -- re vi -- vos et mor -- tu -- os: Cu -- jus re -- gni non e -- rit fi -- nis. Et in Spi -- ri -- tum San -- ctum Do -- mi -- num, et vi -- vi -- fi -- can -- tem: Fi -- li -- o -- que pro -- ce -- dit. Qui cum Pa -- tre, et Fi -- li -- o si -- mul a -- do -- ra -- tur, et con -- glo -- ri -- fi -- ca -- tur: Qui lo -- cu -- tus est per Pro -- phe -- tas. Et u -- nam, san -- ctam, ca -- tho -- li -- cam et a -- po -- sto -- li -- cam Ec -- cle -- si -- am. Con -- fi -- te -- or un -- um ba -- pti -- sma in re -- mis -- si -- o -- nem pec -- ca -- to -- rum.
+  Et ex -- pe -- cto re -- sur -- re -- cti -- o -- nem mor -- tu -- o -- rum __ Et vi -- tam ven -- tu -- ri sæ -- cu -- li. A -- men, sæ -- cu -- li. A -- men. sæ -- cu -- li. A -- men.
 }
 
 % The score definition
