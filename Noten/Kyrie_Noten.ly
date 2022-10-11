@@ -18,14 +18,13 @@ tempTranspose = #(define-music-function (parser location music)
 
 mBreak = { }
 
-globalKyrieLassoMissaII = {
+globalKyrieMissaIILasso = {
   \key g \major \time 4/2
   \taktstil
 }
 
-sopranNotenKyrie = \tempTranspose \relative b' {
-  \clef "treble"
-  \globalKyrieLassoMissaII
+sopranNotenKyrieMissaIILasso = \tempTranspose \relative b' {
+  \globalKyrieMissaIILasso
   R\breve | % 2
   r1 b2. c4 | % 3
   d2 b2 c1 | % 4
@@ -52,15 +51,18 @@ sopranNotenKyrie = \tempTranspose \relative b' {
   a\breve \bar "|."
 }
 
-PartPOneVoiceOneLyricspartOneverseOne =  \lyricmode {
-  Ky -- ri -- e e -- lei -- _ son, e -- _ lei -- son. Chri -- ste e -- _ _ lei -- son,  __ Chri -- ste e -- _ lei -- son. Ky -- ri -- e e -- lei -- _ _ _ _ _
-  son. Ky -- ri -- e e -- lei -- _ son, Ky -- ri -- e, __
-  _ _ Ky -- ri -- e e -- lei -- _ son.
+sopranTextKyrieMissaIILasso = \lyricmode {
+  Ky -- ri -- e e -- lei -- _ son, e -- _ lei -- son.
+  Chri -- ste e -- _ _ lei -- son,  __ 
+  Chri -- ste e -- _ lei -- son. 
+  Ky -- ri -- e e -- lei -- _ _ _ _ _ son.
+  Ky -- ri -- e e -- lei -- _ son, 
+  Ky -- ri -- e, __ _ _ Ky -- ri -- e e -- lei -- _ son.
 }
 
-altNotenKyrie = \tempTranspose \relative e' {
+altNotenKyrieMissaIILasso = \tempTranspose \relative e' {
   \clef "treble"
-  \globalKyrieLassoMissaII
+  \globalKyrieMissaIILasso
   R\breve | % 2
   e2. fis4 g2 e2 | % 3
   fis2 gis2 a4 e2 fis4 | % 4
@@ -87,14 +89,20 @@ altNotenKyrie = \tempTranspose \relative e' {
   e\breve \bar "|."
 }
 
-PartPTwoVoiceOneLyricspartTwoverseOne =  \lyricmode {
-  Ky -- ri -- e e -- lei -- _ son, Ky -- ri -- e  __ _ e -- lei -- son.
-  Chri -- ste e -- _ _ _ lei -- _ son, Chri -- ste e -- lei -- son. Ky -- ri -- e e -- lei -- _ son, Ky -- ri -- e e -- lei -- son. Ky -- ri -- e e -- lei -- son, Ky -- ri -- e e -- lei -- son, Ky -- ri -- e e -- lei -- son.
+altTextKyrieMissaIILasso =  \lyricmode {
+  Ky -- ri -- e e -- lei -- _ son, 
+  Ky -- ri -- e  __ _ e -- lei -- son.
+  Chri -- ste e -- _ _ _ lei -- _ son, 
+  Chri -- ste e -- lei -- son. 
+  Ky -- ri -- e e -- lei -- _ son, 
+  Ky -- ri -- e e -- lei -- son. 
+  Ky -- ri -- e e -- lei -- son, 
+  Ky -- ri -- e e -- lei -- son,
+  Ky -- ri -- e e -- lei -- son.
 }
 
-tenorNotenKyrie = \tempTranspose \relative b {
-  \clef "treble_8"
-  \globalKyrieLassoMissaII
+tenorNotenKyrieMissaIILasso = \tempTranspose \relative b {
+  \globalKyrieMissaIILasso
   R\breve*3 | % 4
   b2. c4 d2 b2 | % 5
   c1 b1 | % 6
@@ -117,16 +125,16 @@ tenorNotenKyrie = \tempTranspose \relative b {
   a\breve \bar "|."
 }
 
-PartPThreeVoiceOneLyricspartThreeverseOne =  \lyricmode {
-  Ky -- ri -- e
-  e -- lei -- _ son. Chri -- ste e -- lei -- son, Chri -- ste -- e -- lei -- _ son. Ky -- ri -- e e -- lei -- _ son,
-  Ky -- ri -- e, Ky -- ri -- e e -- lei -- _ _ _
-  son.
+tenorTextKyrieMissaIILasso =  \lyricmode {
+  Ky -- ri -- e e -- lei -- _ son. 
+  Chri -- ste e -- lei -- son, 
+  Chri -- ste -- e -- lei -- _ son. 
+  Ky -- ri -- e e -- lei -- _ son,
+  Ky -- ri -- e, Ky -- ri -- e e -- lei -- _ _ _ son.
 }
 
-bassNotenKyrie = \tempTranspose \relative b {
-  \clef "bass"
-  \globalKyrieLassoMissaII
+bassNotenKyrieMissaIILasso = \tempTranspose \relative b {
+  \globalKyrieMissaIILasso
   \hide Slur
   b2. c4 d2 b2 | % 2
   c2 a2 e1 | % 3
@@ -153,9 +161,15 @@ bassNotenKyrie = \tempTranspose \relative b {
   a,\breve \bar "|."
 }
 
-PartPFourVoiceOneLyricspartFourverseOne =  \lyricmode {
-  Ky -- ri -- e e -- lei -- _ son, Ky -- ri -- _ e e -- lei -- _
-  son. Chri -- ste e -- _ _ _ lei -- son, Chri -- ste e -- _ _ _ _ _ _ lei -- son. Ky -- ri -- e e -- lei -- _ son, e -- lei -- _ son, e -- lei -- son, Ky -- ri -- e e -- lei -- son, Ky -- ri -- e e -- lei -- _ _ son.
+bassTextKyrieMissaIILasso =  \lyricmode {
+  Ky -- ri -- e e -- lei -- _ son,
+  Ky -- ri -- _ e e -- lei -- _ son.
+  Chri -- ste e -- _ _ _ lei -- son,
+  Chri -- ste e -- _ _ _ _ _ _ lei -- son. 
+  Ky -- ri -- e e -- lei -- _ son, 
+  e -- lei -- _ son, e -- lei -- son, 
+  Ky -- ri -- e e -- lei -- son, 
+  Ky -- ri -- e e -- lei -- _ _ son.
 }
 
 % The score definition
@@ -166,32 +180,44 @@ scoreKyrieMissaIILasso = {
         \set Staff.instrumentName = "SOPRAN"
         \set Staff.shortInstrumentName = "S"
         \context Staff <<
-          \context Voice = "PartPOneVoiceOne" { \optionalTranspose \sopranNotenKyrie }
-          \new Lyrics \lyricsto "PartPOneVoiceOne" \PartPOneVoiceOneLyricspartOneverseOne
+          \context Voice = "vsop" { 
+            \clef "treble"
+            \optionalTranspose \sopranNotenKyrieMissaIILasso 
+          }
+          \new Lyrics \lyricsto "vsop" \sopranTextKyrieMissaIILasso
         >>
       >>
       \new Staff <<
         \set Staff.instrumentName = "ALT"
         \set Staff.shortInstrumentName = "A"
         \context Staff <<
-          \context Voice = "PartPTwoVoiceOne" { \optionalTranspose \altNotenKyrie }
-          \new Lyrics \lyricsto "PartPTwoVoiceOne" \PartPTwoVoiceOneLyricspartTwoverseOne
+          \context Voice = "valt" {
+            \clef "treble"
+            \optionalTranspose \altNotenKyrieMissaIILasso 
+          }
+          \new Lyrics \lyricsto "valt" \altTextKyrieMissaIILasso
         >>
       >>
       \new Staff <<
         \set Staff.instrumentName = "TENOR"
         \set Staff.shortInstrumentName = "T"
         \context Staff <<
-          \context Voice = "PartPThreeVoiceOne" { \optionalTranspose \tenorNotenKyrie }
-          \new Lyrics \lyricsto "PartPThreeVoiceOne" \PartPThreeVoiceOneLyricspartThreeverseOne
+          \context Voice = "vten" { 
+            \clef "G_8"
+            \optionalTranspose \tenorNotenKyrieMissaIILasso 
+          }
+          \new Lyrics \lyricsto "vten" \tenorTextKyrieMissaIILasso
         >>
       >>
       \new Staff <<
         \set Staff.instrumentName = "BASS"
         \set Staff.shortInstrumentName = "B"
         \context Staff <<
-          \context Voice = "PartPFourVoiceOne" { \optionalTranspose \bassNotenKyrie }
-          \new Lyrics \lyricsto "PartPFourVoiceOne" \PartPFourVoiceOneLyricspartFourverseOne
+          \context Voice = "vbass" { 
+            \clef "bass"
+            \optionalTranspose \bassNotenKyrieMissaIILasso
+          }
+          \new Lyrics \lyricsto "vbass" \bassTextKyrieMissaIILasso
         >>
       >>
 
@@ -200,7 +226,7 @@ scoreKyrieMissaIILasso = {
   >>
 }
 
-%{Arbeitspartitur
+%***Arbeitspartitur
 \book {
   \bookOutputName "Kyrie-Arbeitspartitur"
   \score {
@@ -216,4 +242,4 @@ scoreKyrieMissaIILasso = {
     }
   }
 }
-Arbeitspartitur%}
+%Arbeitspartitur***

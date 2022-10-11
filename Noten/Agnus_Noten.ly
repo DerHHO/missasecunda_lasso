@@ -21,14 +21,14 @@ sopranNotenAgnusMissaIILasso =  \relative bes' {
   g\breve g g a1 r |
   bes1 bes2 bes2 ~ | % 6
   bes4 a4 a2. g8 [ f8 ] g2 | % 7
-  a1 b2 \rest a2 | % 8
+  a1 r2 a2 | % 8
   a1 bes1 \mBreak | % 9
   bes1 a1 | \barNumberCheck #10
   a2  c2. bes4 bes2~ | % 11
   bes2 a2 bes1 | % 12
   r2 a4 bes4 c2 g2 \mBreak | % 13
   r2 f4 g4 a4 a4 g2 | % 14
-  a1 b2 \rest a4 bes4 | % 15
+  a1 r2 a4 bes4 | % 15
   c4 c4 d2 g,2 e4 f4 | % 16
   g2 a2 g2 f2 \mBreak | % 17
   e4 e4 f2. d4 g2 ~ | % 18
@@ -46,11 +46,14 @@ sopranNotenAgnusMissaIILasso =  \relative bes' {
 
 sopranTextAgnusMissaIILasso =  \lyricmode {
   A -- gnus De -- i,
-  A -- gnus De -- _
-  _ _ _ i, qui tol -- lis pec -- ca -- ta
-  mun -- _ _ _ di: mi -- se -- re -- re, mi -- se -- re -- re no -- bis, mi -- se -- re -- re no -- bis, mi -- se -- re -- re no -- bis, mi -- se -- re -- re no -- _
-  bis, mi -- se -- re -- re, mi -- se -- re -- re no -- _
-  _ _ bis, mi -- se -- re -- re no -- bis, mi -- se -- re -- re no -- bis. _
+  A -- gnus De -- _ _ _ _ i, 
+  qui tol -- lis pec -- ca -- ta mun -- _ _ _ di: 
+  mi -- se -- re -- re, mi -- se -- re -- re no -- bis, 
+  mi -- se -- re -- re no -- bis, 
+  mi -- se -- re -- re no -- bis, 
+  mi -- se -- re -- re no -- _ bis, 
+  mi -- se -- re -- re, mi -- se -- re -- re no -- _ _ _ bis, 
+  mi -- se -- re -- re no -- bis, mi -- se -- re -- re no -- bis. _
 }
 
 
@@ -87,8 +90,17 @@ altNotenAgnusMissaIILasso =  \relative d' {
 
 altTextAgnusMissaIILasso =  \lyricmode {
   A -- gnus De -- _ _ _ i,
-  A -- _ _ _ gnus De -- _ _ _ _ _ i, qui tol -- lis pec -- _ _ _ ca -- ta mun -- _ _ di: mi -- se -- re -- re, mi -- se -- re -- re no -- bis, mi -- se -- re -- re, mi -- se -- re -- re no -- bis, mi -- se -- re -- re no -- bis, mi -- se -- re -- re no -- bis, mi -- se -- re -- re no -- bis, mi -- se -- re -- re no -- bis, mi -- se -- re -- re no -- bis.
+  A -- _ _ _ gnus De -- _ _ _ _ _ i, 
+  qui tol -- lis pec -- _ _ _ ca -- ta mun -- _ _ di: 
+  mi -- se -- re -- re, mi -- se -- re -- re no -- bis, 
+  mi -- se -- re -- re, mi -- se -- re -- re no -- bis, 
+  mi -- se -- re -- re no -- bis, 
+  mi -- se -- re -- re no -- bis, 
+  mi -- se -- re -- re no -- bis, 
+  mi -- se -- re -- re no -- bis, 
+  mi -- se -- re -- re no -- bis.
 }
+
 tenorNotenAgnusMissaIILasso =  \relative g {
   \clef "treble_8" 
   \globalAgnusMissaIILasso
@@ -104,15 +116,15 @@ tenorNotenAgnusMissaIILasso =  \relative g {
   d1 d2 d2 | \barNumberCheck #10
   c2 a2 \[ bes1 ( | % 11
   c1 ) \] bes2 bes4 c4 | % 12
-  d2 c2 b2 \rest bes4 c4 \mBreak | % 13
+  d2 c2 r2 bes4 c4 \mBreak | % 13
   d2 bes2 c1 ~ | % 14
   c2 d2 a4 bes4 c2 | % 15
   a2 a4 bes4 c1 | % 16
-  c1 b2 \rest a4 bes4 \mBreak | % 17
+  c1 r2 a4 bes4 \mBreak | % 17
   c2 a2 \[ bes1 | % 18
   a1 \] g1 | % 19
   g4 a4 bes2 c1 | \barNumberCheck #20
-  b2 \rest a4 bes4 c2 a2 \mBreak | % 21
+  r2 a4 bes4 c2 a2 \mBreak | % 21
   \[ bes1 a1 \]  | % 22
   g\breve ~ | % 23
   g\breve ~ | % 24
@@ -123,10 +135,14 @@ tenorNotenAgnusMissaIILasso =  \relative g {
 
 
 tenorTextAgnusMissaIILasso =  \lyricmode {
-  A -- gnus
-  De -- i, A -- gnus De -- _ _ _ _ _ i,
-  qui tol -- lis pec -- ca -- ta mun -- di: mi -- se -- re -- re, mi -- se -- re -- re no -- bis, mi -- se -- re -- re, mi -- se -- re -- re, mi -- se -- re -- re no -- _
-  bis, mi -- se -- re -- re, mi -- se -- re -- re no -- _ bis. __
+  A -- gnus De -- i, 
+  A -- gnus De -- _ _ _ _ _ i,
+  qui tol -- lis pec -- ca -- ta mun -- di: 
+  mi -- se -- re -- re, mi -- se -- re -- re no -- bis, 
+  mi -- se -- re -- re, mi -- se -- re -- re, 
+  mi -- se -- re -- re no -- _ bis, 
+  mi -- se -- re -- re, 
+  mi -- se -- re -- re no -- _ bis. __
 }
 
 bassNotenAgnusMissaIILasso =  \relative g {
@@ -140,17 +156,17 @@ bassNotenAgnusMissaIILasso =  \relative g {
   bes1 g1 | % 6
   \[ a1 bes1 \] | % 7
   a\breve | % 8
-  d,2 \rest d2 bes2 bes2 \mBreak | % 9
+  r2 d,2 bes2 bes2 \mBreak | % 9
   g4 a4 bes4 c4 d4 e4 f4 g4 | \barNumberCheck #10
   a2 f2 g2 g2 | % 11
-  f1 d2 \rest g4 a4 | % 12
-  bes2 f2 d2 \rest g4 a4 \mBreak | % 13
+  f1 r2 g4 a4 | % 12
+  bes2 f2 r2 g4 a4 \mBreak | % 13
   bes2. a8 [ g8 ] f2 c2 | % 14
   f2 d2 f4 g4 a2 | % 15
   f2 d2 c1 | % 16
-  d2 \rest a4 bes4 c2 d2 \mBreak | % 17
-  c2 f,2 d'2 \rest bes4 c4 | % 18
-  d2 d2 d2 \rest g4 a4 | % 19
+  r2 a4 bes4 c2 d2 \mBreak | % 17
+  c2 f,2 r2 bes4 c4 | % 18
+  d2 d2 r2 g4 a4 | % 19
   bes2 g2 f1 | \barNumberCheck #20
   f2 f1 f2 \mBreak | % 21
   g2 g,2 d'1 | % 22
@@ -162,29 +178,34 @@ bassNotenAgnusMissaIILasso =  \relative g {
 }
 
 bassTextAgnusMissaIILasso =  \lyricmode {
-  A -- gnus __ _ De -- i, A -- gnus De -- _ i, qui tol -- lis pec -- _
-  _ _ _ _ _ _ _ ca -- ta mun -- di: mi -- se -- re -- re, mi -- se -- re -- _ _ re
-  no -- bis, mi -- se -- re -- re no -- bis, mi -- se -- re -- re
-  no -- bis, mi -- se -- re -- re, mi -- se -- re -- re no -- bis, mi -- se -- re -- re no -- bis, mi -- se -- re -- re, mi -- se -- re -- re mi -- se -- re -- re no -- bis.
+  A -- gnus __ _ De -- i, 
+  A -- gnus De -- _ i, 
+  qui tol -- lis pec -- _ _ _ _ _ _ _ _ ca -- ta mun -- di: 
+  mi -- se -- re -- re, mi -- se -- re -- _ _ re no -- bis, 
+  mi -- se -- re -- re no -- bis, 
+  mi -- se -- re -- re no -- bis, 
+  mi -- se -- re -- re, mi -- se -- re -- re no -- bis, 
+  mi -- se -- re -- re no -- bis, 
+  mi -- se -- re -- re, mi -- se -- re -- re,
+  mi -- se -- re -- re no -- bis.
 }
 
-% The score definition
 scoreAgnusMissaIILasso = {
   \new ChoirStaff <<
     \new Staff <<
       \set Staff.instrumentName = "SOPRAN"
       \set Staff.shortInstrumentName = "S."
       \context Staff <<
-        \context Voice = "sopranNotenAgnusMissaIILasso" { \sopranNotenAgnusMissaIILasso }
-        \new Lyrics \lyricsto "sopranNotenAgnusMissaIILasso" \sopranTextAgnusMissaIILasso
+        \context Voice = "vsop" { \sopranNotenAgnusMissaIILasso }
+        \new Lyrics \lyricsto "vsop" \sopranTextAgnusMissaIILasso
       >>
     >>
     \new Staff <<
       \set Staff.instrumentName = "ALT"
       \set Staff.shortInstrumentName = "A."
       \context Staff <<
-        \context Voice = "altNotenAgnusMissaIILasso" { \altNotenAgnusMissaIILasso }
-        \new Lyrics \lyricsto "altNotenAgnusMissaIILasso" \altTextAgnusMissaIILasso
+        \context Voice = "valt" { \altNotenAgnusMissaIILasso }
+        \new Lyrics \lyricsto "valt" \altTextAgnusMissaIILasso
       >>
     >>
 
@@ -192,8 +213,8 @@ scoreAgnusMissaIILasso = {
       \set Staff.instrumentName = "TENOR"
       \set Staff.shortInstrumentName = "T."
       \context Staff <<
-        \context Voice = "tenorNotenAgnusMissaIILasso" { \tenorNotenAgnusMissaIILasso }
-        \new Lyrics \lyricsto "tenorNotenAgnusMissaIILasso" \tenorTextAgnusMissaIILasso
+        \context Voice = "vten" { \tenorNotenAgnusMissaIILasso }
+        \new Lyrics \lyricsto "vten" \tenorTextAgnusMissaIILasso
       >>
     >>
 
@@ -201,8 +222,8 @@ scoreAgnusMissaIILasso = {
       \set Staff.instrumentName = "BASS"
       \set Staff.shortInstrumentName = "B."
       \context Staff <<
-        \context Voice = "bassNotenAgnusMissaIILasso" { \bassNotenAgnusMissaIILasso }
-        \new Lyrics \lyricsto "bassNotenAgnusMissaIILasso" \bassTextAgnusMissaIILasso
+        \context Voice = "vbass" { \bassNotenAgnusMissaIILasso }
+        \new Lyrics \lyricsto "vbass" \bassTextAgnusMissaIILasso
       >>
     >>
 
@@ -213,6 +234,7 @@ scoreAgnusMissaIILasso = {
   
 }
 
+%***Arbeitspartitur
 \score {
   \scoreAgnusMissaIILasso
   \layout {
@@ -236,3 +258,4 @@ scoreAgnusMissaIILasso = {
      \tempo 1 = 60
    }
 }
+%Arbeitspartitur***

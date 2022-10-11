@@ -18,15 +18,14 @@ tempTranspose = #(define-music-function (parser location music)
 
 mBreak = { }
 
-globalCredoLassoMissaII =  {
+globalCredoMissaIILasso =  {
   \taktstil
   \key e\minor
   \time 4/2
 }
 
-PartPOneVoiceOne = \tempTranspose \relative b' {
-  \clef "treble" 
-  \globalCredoLassoMissaII
+sopranNotenCredoMissaIILasso = \tempTranspose \relative b' {
+  \globalCredoMissaIILasso
   R\breve*2 | % 3
   b2 b4 c4 d2 b2 | % 4
   a2 b2. a4 a2 ~ | % 5
@@ -141,26 +140,55 @@ PartPOneVoiceOne = \tempTranspose \relative b' {
   a\breve \bar "|."
 }
 
-PartPOneVoiceOneLyricspartOneverseOne =  \lyricmode {
-  Fa -- cto -- rem
-  cæ -- li et ter -- \skip2 \skip2 \skip2 rea, vi -- si -- bi -- li -- um o -- mni -- um et in -- vi -- si -- bi -- li -- um. Et in u -- num Do -- mi -- num Je -- sum Chri -- stum, Fi -- li -- um De -- i u -- ni -- ge -- ni -- tum, Et ex Pa -- tre na -- tum an -- te o -- mni -- a sæ -- cu -- la. Lu -- men de lu -- mi -- ne,
-  De -- um ve -- rum de De -- o  __ \skip2 \skip2 ve -- \skip2 ro.
-  Ge -- ni -- tum, non fa -- ctum, con -- sub -- stan -- ti -- a -- lem Pa -- \skip2 \skip2 \skip2 \skip2 tri: per quem o -- mni -- a fa -- cta sunt. et pro -- pter no -- stram sa -- lu -- \skip2
-  tem de -- scen -- dit de cæ -- lis, de -- scen -- dit de cæ -- lis. Et in -- car -- na -- tus est de Spi -- ri -- tu San -- cto
-  ex Ma -- ri -- a Vir -- gi -- ne: Et ho -- mo fa -- ctus est, Et
-  ho -- mo fa -- \skip2 \skip2 ctus est. Cru -- ci -- fi -- xus e -- ti -- am pro no -- bis sub Pon -- ti -- o Pi -- la -- to, sub Pon -- ti -- o Pi -- la -- to: pas -- sus, et  __ \skip2 \skip2 se -- pul -- tus  __ \skip2 \skip2 est. Et re -- sur -- re -- xit
-  ter -- ti -- a di -- e, se -- cun -- dum scri -- ptu -- \skip2
-  ras. Et a -- scen -- \skip2 dit in cæ -- \skip2 \skip2 \skip2
-  \skip2 lum:  __ se -- det ad dex -- te -- ram  __ \skip2 \skip2
-  \skip2 \skip2 \skip2 Pa -- \skip2 \skip2 tris. Et i -- te -- rum
-  ven -- tu -- rus est cum glo -- ri -- a ju -- di -- ca -- re vi -- vos et mor -- tu -- os: Cu -- jus re -- gni non e -- rit fi -- nis. Et in Spi -- ri -- tum San -- ctum Do -- mi -- num, et vi -- vi -- fi -- can -- tem: Fi -- li -- o -- que pro -- ce -- \skip2 \skip2 \skip2 \skip2 \skip2 dit. Qui cum Pa -- tre, et Fi -- li -- o si -- mul a -- do -- ra -- \skip2 \skip2 tur, et con -- glo -- ri -- fi -- ca -- \skip2 \skip2 tur: Qui lo -- cu -- tus
-  est per Pro -- phe -- tas. Et u -- nam, san -- ctam, ca -- tho -- li -- cam et a -- po -- sto -- li -- cam Ec -- cle -- si -- am.
-  Con -- fi -- te -- or un -- um ba -- pti -- sma in re -- mis -- si -- o -- nem pec -- ca -- to -- rum. Et ex -- pe -- cto re -- sur -- re -- cti -- o -- nem mor -- tu -- o -- rum  __ Et vi -- tam
-  ven -- tu -- ri sæ -- cu -- li. A -- men, sæ -- cu -- li,
-  sæ -- cu -- li. A -- \skip2 \skip2 men.
+sopranTextCredoMissaIILasso =  \lyricmode {
+  Fa -- cto -- rem cæ -- li et ter -- _ _ _ ræ,
+  vi -- si -- bi -- li -- um o -- mni -- um 
+  et in -- vi -- si -- bi -- li -- um. 
+  Et in u -- num Do -- mi -- num Je -- sum Chri -- stum,
+  Fi -- li -- um De -- i u -- ni -- ge -- ni -- tum, 
+  et ex Pa -- tre na -- tum an -- te o -- mni -- a sæ -- cu -- la.
+  Lu -- men de lu -- mi -- ne,
+  De -- um ve -- rum de De -- o  __ _ _ ve -- _ ro.
+  Ge -- ni -- tum, non fa -- ctum,
+  con -- sub -- stan -- ti -- a -- lem Pa -- _ _ _ _ tri: 
+  per quem o -- mni -- a fa -- cta sunt. 
+  …et pro -- pter no -- stram sa -- lu -- _ tem 
+  de -- scen -- dit de cæ -- lis, de -- scen -- dit de cæ -- lis. 
+  Et in -- car -- na -- tus est de Spi -- ri -- tu San -- cto
+  ex Ma -- ri -- a Vir -- gi -- ne: 
+  Et ho -- mo fa -- ctus est, et ho -- mo fa -- _ _ ctus est. 
+  Cru -- ci -- fi -- xus e -- ti -- am pro no -- bis
+  sub Pon -- ti -- o Pi -- la -- to,
+  sub Pon -- ti -- o Pi -- la -- to: 
+  pas -- sus, et  __ _ _ se -- pul -- tus  __ _ _ est. 
+  Et re -- sur -- re -- xit ter -- ti -- a di -- e,
+  se -- cun -- dum scri -- ptu -- _ ras. 
+  Et a -- scen -- _ dit in cæ -- _ _ _ _ lum: __ 
+  se -- det ad dex -- te -- ram  __ _ _ _ _ _ Pa -- _ _ tris. 
+  Et i -- te -- rum ven -- tu -- rus est cum glo -- ri -- a 
+  ju -- di -- ca -- re vi -- vos et mor -- tu -- os: 
+  Cu -- jus re -- gni non e -- rit fi -- nis. 
+  Et in Spi -- ri -- tum San -- ctum Do -- mi -- num, 
+  et vi -- vi -- fi -- can -- tem: 
+  Fi -- li -- o -- que pro -- ce -- _ _ _ _ _ dit. 
+  Qui cum Pa -- tre, et Fi -- li -- o 
+  si -- mul a -- do -- ra -- _ _ tur, 
+  et con -- glo -- ri -- fi -- ca -- _ _ tur: 
+  Qui lo -- cu -- tus est per Pro -- phe -- tas. 
+  Et u -- nam, san -- ctam, ca -- tho -- li -- cam 
+  et a -- po -- sto -- li -- cam Ec -- cle -- si -- am.
+  Con -- fi -- te -- or un -- um ba -- pti -- sma 
+  in re -- mis -- si -- o -- nem pec -- ca -- to -- rum. 
+  Et ex -- pe -- cto re -- sur -- re -- cti -- o -- nem 
+  mor -- tu -- o -- rum.  __ 
+  Et vi -- tam ven -- tu -- ri sæ -- cu -- li. 
+  A -- men, sæ -- cu -- li,
+  sæ -- cu -- li. 
+  A -- _ _ men.
 }
-PartPTwoVoiceOne = \tempTranspose \relative e' {
-  \globalCredoLassoMissaII
+
+altNotenCredoMissaIILasso = \tempTranspose \relative e' {
+  \globalCredoMissaIILasso
   R\breve | % 2
   r1 e2 e4 fis4 | % 3
   g2. fis8 [ e8 ] fis2 g2 | % 4
@@ -270,24 +298,58 @@ PartPTwoVoiceOne = \tempTranspose \relative e' {
   cis\breve \bar "|."
 }
 
-PartPTwoVoiceOneLyricspartTwoverseOne =  \lyricmode {
-  Fa -- cto -- rem
-  cæ -- \skip2 \skip2 li et ter -- ræ,  __ vi -- si -- bi -- li -- um o -- mni -- um et in -- vi -- si -- bi -- li -- um. Et in u -- num Do -- mi -- num Je -- sum Chri -- stum, Fi -- li -- um De -- i
-  u -- ni -- ge -- ni -- tum, Et ex Pa -- tre na -- tum an -- te o -- mni -- a sæ -- cu -- la. Lu -- men de lu -- mi -- ne, De -- um ve -- rum de De -- o ve -- ro. Ge -- ni -- tum, non fa -- ctum, con -- sub -- stan -- ti -- a -- lem Pa -- tri: per quem o -- mni -- a fa -- cta sunt.  __ et pro -- pter no -- stram sa -- lu -- tem de -- scen -- dit de cæ -- lis, de -- scen -- dit de
-  cæ -- lis. Et in -- car -- na -- tus est de Spi -- ri -- tu San -- cto ex Ma -- ri -- a Vir -- gi -- ne: Et ho -- mo fa -- ctus
-  est,  __ \skip2 \skip2 Et ho -- mo fa -- ctus est. Et re -- sur -- re -- xit ter -- ti -- a di -- e, se -- cun -- dum scri -- ptu -- ras. Et a -- scen -- \skip2 \skip2 dit  __ \skip2 \skip2 in
-     __ \skip2 \skip2 cæ -- \skip2 lum: se -- det ad dex -- te -- ram Pa -- tris, se -- det ad dex -- te -- ram  __ \skip2 \skip2
-  Pa -- \skip2 tris. Et i -- te -- rum ven -- tu -- rus est cum glo -- ri -- a ju -- di -- ca -- re vi -- vos et mor -- tu -- os: Cu -- jus re -- gni non e -- rit fi -- nis. Et in Spi -- ri -- tum
-  San -- ctum Do -- mi -- num, et vi -- vi -- fi -- can -- tem:
-  Qui ex Pa -- tre, Fi -- li -- o -- que pro -- ce -- \skip2 \skip2
-  \skip2 \skip2 dit. Qui cum Pa -- tre, et Fi -- li -- o si -- mul
-  a -- do -- ra -- tur, et  __ con -- glo -- ri -- fi -- ca -- tur: Qui lo -- cu -- tus est per Pro -- phe -- tas. Et u -- nam, san -- ctam, ca -- tho -- li -- cam et a -- po -- sto -- li -- cam Ec -- cle -- si -- am. Con -- fi -- te -- or un -- um ba -- pti -- sma in re -- mis -- si -- o -- nem pec -- ca -- to -- rum.
-  Et ex -- pe -- cto re -- sur -- re -- cti -- o -- nem mor -- tu -- o -- rum Et vi -- tam ven -- tu -- ri sæ -- cu -- li. A -- men,
-  sæ -- cu -- li. A -- men. sæ -- cu -- li. A -- men.
+altTextCredoMissaIILasso = \lyricmode {
+  Fa -- cto -- rem cæ -- _ _ li et ter -- ræ, __
+  vi -- si -- bi -- li -- um o -- mni -- um 
+  et in -- vi -- si -- bi -- li -- um. 
+  Et in u -- num Do -- mi -- num 
+  Je -- sum Chri -- stum, 
+  Fi -- li -- um De -- i u -- ni -- ge -- ni -- tum, 
+  et ex Pa -- tre na -- tum an -- te o -- mni -- a sæ -- cu -- la. 
+  Lu -- men de lu -- mi -- ne, 
+  De -- um ve -- rum de De -- o ve -- ro. 
+  Ge -- ni -- tum, non fa -- ctum, 
+  con -- sub -- stan -- ti -- a -- lem Pa -- tri: 
+  per quem o -- mni -- a fa -- cta sunt.  __ 
+  …et pro -- pter no -- stram sa -- lu -- tem 
+  de -- scen -- dit de cæ -- lis, 
+  de -- scen -- dit de cæ -- lis. 
+  Et in -- car -- na -- tus est 
+  de Spi -- ri -- tu San -- cto 
+  ex Ma -- ri -- a Vir -- gi -- ne: 
+  Et ho -- mo fa -- ctus est,  __ _ _ 
+  Et ho -- mo fa -- ctus est. 
+  Et re -- sur -- re -- xit ter -- ti -- a di -- e, 
+  se -- cun -- dum scri -- ptu -- ras. 
+  Et a -- scen -- _ _ dit  __ _ _ in __ _ _ cæ -- _ lum: 
+  se -- det ad dex -- te -- ram Pa -- tris, 
+  se -- det ad dex -- te -- ram  __ _ _ Pa -- _ tris. 
+  Et i -- te -- rum ven -- tu -- rus est 
+  cum glo -- ri -- a ju -- di -- ca -- re 
+  vi -- vos et mor -- tu -- os: 
+  Cu -- jus re -- gni non e -- rit fi -- nis. 
+  Et in Spi -- ri -- tum San -- ctum Do -- mi -- num, 
+  et vi -- vi -- fi -- can -- tem:
+  Qui ex Pa -- tre, Fi -- li -- o -- que pro -- ce -- _ _ _ _ dit. 
+  Qui cum Pa -- tre, et Fi -- li -- o 
+  si -- mul a -- do -- ra -- tur, 
+  et  __ con -- glo -- ri -- fi -- ca -- tur: 
+  Qui lo -- cu -- tus est per Pro -- phe -- tas. 
+  Et u -- nam, san -- ctam, ca -- tho -- li -- cam 
+  et a -- po -- sto -- li -- cam Ec -- cle -- si -- am. 
+  Con -- fi -- te -- or un -- um ba -- pti -- sma 
+  in re -- mis -- si -- o -- nem pec -- ca -- to -- rum.
+  Et ex -- pe -- cto re -- sur -- re -- cti -- o -- nem 
+  mor -- tu -- o -- rum.
+  Et vi -- tam ven -- tu -- ri sæ -- cu -- li. 
+  A -- men, sæ -- cu -- li. 
+  A -- men, sæ -- cu -- li. 
+  A -- men.
 }
-PartPThreeVoiceOne = \tempTranspose \relative b {
-  \globalCredoLassoMissaII
-  \clef "treble_8" 
+
+
+tenorNotenCredoMissaIILasso = \tempTranspose \relative b {
+  \globalCredoMissaIILasso
   r1 b2. c4 | % 2
   d2 b2 c2 a2 | % 3
   e'1 r4 b4 b4 c4 | % 4
@@ -403,21 +465,57 @@ PartPThreeVoiceOne = \tempTranspose \relative b {
   a\breve \bar "|."
 }
 
-PartPThreeVoiceOneLyricspartThreeverseOne =  \lyricmode {
-  Pa -- trem o -- mni -- po -- ten -- tem, fa -- cto -- rem cæ -- li et ter -- ræ, vi -- si -- bi -- li -- um o -- mni -- um et in -- vi -- si -- bi -- li -- um. Et in u -- num Do -- mi -- num Je -- sum Chri -- stum, Fi -- li -- um De -- i u -- ni -- ge -- ni -- tum, Et
-  ex Pa -- tre na -- tum an -- te o -- mni -- a sæ -- cu -- la. De -- um de De -- o, De -- um ve -- rum de De -- o ve -- \skip2 ro.
-  Ge -- ni -- tum, non fa -- ctum, con -- sub -- stan -- ti -- a -- lem Pa -- \skip2 tri: per quem o -- mni -- a fa -- cta sunt.
-  Qui pro -- pter nos ho -- mi -- nes de -- scen -- dit de cæ -- lis, de -- scen -- dit de cæ -- lis. Et in -- car -- na -- tus
-  est de Spi -- ri -- tu San -- cto ex Ma -- ri -- a Vir -- gi -- ne: Et ho -- mo fa -- ctus est, Et ho -- mo fa -- ctus est.
-  Cru -- ci -- fi -- xus e -- ti -- am pro no -- bis sub Pon -- ti -- o Pi -- la -- to, sub Pon -- ti -- o Pi -- la -- to: pas -- sus, et se -- pul -- tus est. ter -- ti -- a di -- e, se -- cun -- dum scri -- ptu -- ras. Et a -- scen -- \skip2 \skip2 dit
-     __ \skip2 \skip2 in  __ \skip2 cæ -- lum: se -- det ad dex -- te -- ram Pa -- \skip2 tris, se -- det ad dex -- te -- ram  __
-  \skip2 \skip2 \skip2 \skip2 \skip2 Pa -- tris. Et i -- te -- rum
-  ven -- tu -- rus est cum glo -- ri -- a ju -- di -- ca -- re vi -- vos et mor -- tu -- os: Cu -- jus re -- gni non e -- rit fi -- nis. Et in Spi -- ri -- tum San -- ctum Do -- mi -- num, et vi -- vi -- fi -- can -- tem: Qui ex Pa -- tre, Fi -- li -- o -- que pro -- ce -- dit. Qui cum Pa -- tre, et Fi -- li -- o si -- mul a -- do -- ra -- tur, et con -- glo -- ri -- fi -- ca -- tur: Qui lo -- cu -- tus est per Pro -- phe -- tas. Et u -- nam, san -- ctam, ca -- tho -- li -- cam et a -- po -- sto -- li -- cam Ec -- cle -- si -- am. Con -- fi -- te -- or un -- um ba -- pti -- sma in re -- mis -- si -- o -- nem pec -- ca -- to -- rum.
-  Et ex -- pe -- cto re -- sur -- re -- cti -- o -- nem mor -- tu -- o -- rum  __ Et vi -- tam ven -- tu -- ri sæ -- cu -- li. A -- men, sæ -- cu -- li. A -- \skip2 men.  __ \skip2
+tenorTextCredoMissaIILasso = \lyricmode {
+  Pa -- trem o -- mni -- po -- ten -- tem, 
+  fa -- cto -- rem cæ -- li et ter -- ræ, 
+  vi -- si -- bi -- li -- um o -- mni -- um 
+  et in -- vi -- si -- bi -- li -- um. 
+  Et in u -- num Do -- mi -- num Je -- sum Chri -- stum, 
+  Fi -- li -- um De -- i u -- ni -- ge -- ni -- tum, 
+  et ex Pa -- tre na -- tum an -- te o -- mni -- a sæ -- cu -- la. 
+  De -- um de De -- o, De -- um ve -- rum de De -- o ve -- _ ro.
+  Ge -- ni -- tum, non fa -- ctum, 
+  con -- sub -- stan -- ti -- a -- lem Pa -- _ tri: 
+  per quem o -- mni -- a fa -- cta sunt.
+  Qui pro -- pter nos ho -- mi -- nes 
+  de -- scen -- dit de cæ -- lis, de -- scen -- dit de cæ -- lis. 
+  Et in -- car -- na -- tus est 
+  de Spi -- ri -- tu San -- cto ex Ma -- ri -- a Vir -- gi -- ne: 
+  Et ho -- mo fa -- ctus est, 
+  et ho -- mo fa -- ctus est.
+  Cru -- ci -- fi -- xus e -- ti -- am pro no -- bis 
+  sub Pon -- ti -- o Pi -- la -- to, 
+  sub Pon -- ti -- o Pi -- la -- to: 
+  pas -- sus, et se -- pul -- tus est. 
+  …ter -- ti -- a di -- e, 
+  se -- cun -- dum scri -- ptu -- ras. 
+  Et a -- scen -- _ _ dit __ _ _ in  __ _ cæ -- lum: 
+  se -- det ad dex -- te -- ram Pa -- _ tris, 
+  se -- det ad dex -- te -- ram  __ _ _ _ _ _ Pa -- tris. 
+  Et i -- te -- rum ven -- tu -- rus est cum glo -- ri -- a 
+  ju -- di -- ca -- re vi -- vos et mor -- tu -- os: 
+  Cu -- jus re -- gni non e -- rit fi -- nis. 
+  Et in Spi -- ri -- tum San -- ctum Do -- mi -- num, 
+  et vi -- vi -- fi -- can -- tem: 
+  Qui ex Pa -- tre, Fi -- li -- o -- que 
+  pro -- ce -- dit. 
+  Qui cum Pa -- tre, et Fi -- li -- o 
+  si -- mul a -- do -- ra -- tur, 
+  et con -- glo -- ri -- fi -- ca -- tur: 
+  Qui lo -- cu -- tus est per Pro -- phe -- tas. 
+  Et u -- nam, san -- ctam, ca -- tho -- li -- cam 
+  et a -- po -- sto -- li -- cam Ec -- cle -- si -- am. 
+  Con -- fi -- te -- or un -- um ba -- pti -- sma 
+  in re -- mis -- si -- o -- nem pec -- ca -- to -- rum.
+  Et ex -- pe -- cto re -- sur -- re -- cti -- o -- nem 
+  mor -- tu -- o -- rum.  __ 
+  Et vi -- tam ven -- tu -- ri sæ -- cu -- li. 
+  A -- men, sæ -- cu -- li. 
+  A -- _ men.  __ _
 }
-PartPFourVoiceOne = \tempTranspose \relative e {
-  \clef "bass" 
-  \globalCredoLassoMissaII
+
+bassNotenCredoMissaIILasso = \tempTranspose \relative e {
+  \globalCredoMissaIILasso
   e2. fis4 g2 e2 | % 2
   fis2 g2 a2. g8 [ fis8 ] | % 3
   e2 e2 b'2 g2 | % 4
@@ -515,12 +613,47 @@ PartPFourVoiceOne = \tempTranspose \relative e {
   a,\breve \bar "|."
 }
 
-PartPFourVoiceOneLyricspartFourverseOne =  \lyricmode {
-  Pa -- trem o -- mni -- po -- ten -- tem,  __ \skip2 \skip2 fa -- cto -- rem cæ -- li et ter -- ræ, vi -- si -- bi -- li -- um o -- mni -- um et in -- vi -- si -- bi -- li -- um. Et in u -- num Do -- mi -- num Je -- sum Chri -- stum, Fi -- li -- um De -- i u -- ni -- ge -- ni -- tum, Et ex Pa -- tre na -- tum an -- te o -- mni -- a sæ -- cu -- la. De -- um de De -- o, De -- um ve -- rum  __ \skip2 \skip2
-  de De -- o ve -- ro. Ge -- ni -- tum, non fa -- ctum, con -- sub -- stan -- ti -- a -- lem Pa -- tri: per quem o -- mni -- a fa -- cta sunt. Qui pro -- pter nos ho -- mi -- nes de -- scen -- dit
-  de cæ -- lis, de -- scen -- dit de cæ -- lis. Et in -- car -- na -- tus est de Spi -- ri -- tu San -- cto ex Ma -- ri -- a Vir -- gi -- ne: Et ho -- mo fa -- ctus est, Et ho -- mo fa -- ctus
-  est. Et i -- te -- rum ven -- tu -- rus est cum glo -- ri -- a ju -- di -- ca -- re vi -- vos et mor -- tu -- os: Cu -- jus re -- gni non e -- rit fi -- nis. Et in Spi -- ri -- tum San -- ctum Do -- mi -- num, et vi -- vi -- fi -- can -- tem: Fi -- li -- o -- que pro -- ce -- dit. Qui cum Pa -- tre, et Fi -- li -- o si -- mul a -- do -- ra -- tur, et con -- glo -- ri -- fi -- ca -- tur: Qui lo -- cu -- tus est per Pro -- phe -- tas. Et u -- nam, san -- ctam, ca -- tho -- li -- cam et a -- po -- sto -- li -- cam Ec -- cle -- si -- am. Con -- fi -- te -- or un -- um ba -- pti -- sma in re -- mis -- si -- o -- nem pec -- ca -- to -- rum.
-  Et ex -- pe -- cto re -- sur -- re -- cti -- o -- nem mor -- tu -- o -- rum __ Et vi -- tam ven -- tu -- ri sæ -- cu -- li. A -- men, sæ -- cu -- li. A -- men. sæ -- cu -- li. A -- men.
+bassTextCredoMissaIILasso = \lyricmode {
+  Pa -- trem o -- mni -- po -- ten -- tem,  __ _ _ 
+  fa -- cto -- rem cæ -- li et ter -- ræ, 
+  vi -- si -- bi -- li -- um o -- mni -- um 
+  et in -- vi -- si -- bi -- li -- um. 
+  Et in u -- num Do -- mi -- num Je -- sum Chri -- stum, 
+  Fi -- li -- um De -- i u -- ni -- ge -- ni -- tum, 
+  et ex Pa -- tre na -- tum an -- te o -- mni -- a sæ -- cu -- la. 
+  De -- um de De -- o, De -- um ve -- rum  __ _ _
+  de De -- o ve -- ro.
+  Ge -- ni -- tum, non fa -- ctum, 
+  con -- sub -- stan -- ti -- a -- lem Pa -- tri: 
+  per quem o -- mni -- a fa -- cta sunt. 
+  Qui pro -- pter nos ho -- mi -- nes de -- scen -- dit de cæ -- lis, 
+  de -- scen -- dit de cæ -- lis. 
+  Et in -- car -- na -- tus est de Spi -- ri -- tu San -- cto 
+  ex Ma -- ri -- a Vir -- gi -- ne: 
+  Et ho -- mo fa -- ctus est, 
+  et ho -- mo fa -- ctus est. 
+  Et i -- te -- rum ven -- tu -- rus est 
+  cum glo -- ri -- a ju -- di -- ca -- re vi -- vos 
+  et mor -- tu -- os: 
+  Cu -- jus re -- gni non e -- rit fi -- nis. 
+  Et in Spi -- ri -- tum San -- ctum Do -- mi -- num, 
+  et vi -- vi -- fi -- can -- tem: 
+  Fi -- li -- o -- que pro -- ce -- dit. 
+  Qui cum Pa -- tre, et Fi -- li -- o 
+  si -- mul a -- do -- ra -- tur, 
+  et con -- glo -- ri -- fi -- ca -- tur: 
+  Qui lo -- cu -- tus est per Pro -- phe -- tas. 
+  Et u -- nam, san -- ctam, 
+  ca -- tho -- li -- cam 
+  et a -- po -- sto -- li -- cam Ec -- cle -- si -- am. 
+  Con -- fi -- te -- or un -- um ba -- pti -- sma 
+  in re -- mis -- si -- o -- nem pec -- ca -- to -- rum.
+  Et ex -- pe -- cto re -- sur -- re -- cti -- o -- nem 
+  mor -- tu -- o -- rum. __ 
+  Et vi -- tam ven -- tu -- ri sæ -- cu -- li. 
+  A -- men, sæ -- cu -- li. 
+  A -- men, sæ -- cu -- li. 
+  A -- men.
 }
 
 % The score definition
@@ -531,32 +664,44 @@ scoreCredoMissaIILasso = {
         \set Staff.instrumentName = "SOPRAN"
         \set Staff.shortInstrumentName = "S."
         \context Staff <<
-          \context Voice = "PartPOneVoiceOne" { \optionalTranspose \PartPOneVoiceOne }
-          \new Lyrics \lyricsto "PartPOneVoiceOne" \PartPOneVoiceOneLyricspartOneverseOne
+          \context Voice = "vsop" { 
+            \clef "treble"
+            \optionalTranspose \sopranNotenCredoMissaIILasso 
+          }
+          \new Lyrics \lyricsto "vsop" \sopranTextCredoMissaIILasso
         >>
       >>
       \new Staff <<
         \set Staff.instrumentName = "ALT"
         \set Staff.shortInstrumentName = "A."
         \context Staff <<
-          \context Voice = "PartPTwoVoiceOne" { \optionalTranspose \PartPTwoVoiceOne }
-          \new Lyrics \lyricsto "PartPTwoVoiceOne" \PartPTwoVoiceOneLyricspartTwoverseOne
+          \context Voice = "valt" { 
+            \clef "treble" 
+            \optionalTranspose \altNotenCredoMissaIILasso 
+          }
+          \new Lyrics \lyricsto "valt" \altTextCredoMissaIILasso
         >>
       >>
       \new Staff <<
         \set Staff.instrumentName = "TENOR"
         \set Staff.shortInstrumentName = "T."
         \context Staff <<
-          \context Voice = "PartPThreeVoiceOne" { \optionalTranspose \PartPThreeVoiceOne }
-          \new Lyrics \lyricsto "PartPThreeVoiceOne" \PartPThreeVoiceOneLyricspartThreeverseOne
+          \context Voice = "vten" { 
+            \clef "G_8"
+            \optionalTranspose \tenorNotenCredoMissaIILasso 
+          }
+          \new Lyrics \lyricsto "vten" \tenorTextCredoMissaIILasso
         >>
       >>
       \new Staff <<
         \set Staff.instrumentName = "BASS"
         \set Staff.shortInstrumentName = "B."
         \context Staff <<
-          \context Voice = "PartPFourVoiceOne" { \optionalTranspose \PartPFourVoiceOne }
-          \new Lyrics \lyricsto "PartPFourVoiceOne" \PartPFourVoiceOneLyricspartFourverseOne
+          \context Voice = "vbass" { 
+            \clef "bass"
+            \optionalTranspose \bassNotenCredoMissaIILasso 
+          }
+          \new Lyrics \lyricsto "vbass" \bassTextCredoMissaIILasso
         >>
       >>
 

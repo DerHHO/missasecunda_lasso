@@ -19,14 +19,15 @@ tempTranspose = #(define-music-function (parser location music)
 }
 
 mBreak = { }
+mPageBreak = { }
 
-globalGloriaLassoMissaII = {
+globalGloriaMissaIILasso = {
   \key g \major \time 4/2 
   \taktstil
 }
 
-sopranNotenGloria = \tempTranspose \relative a' {
-  \globalGloriaLassoMissaII
+sopranNotenGloriaMissaIILasso = \tempTranspose \relative a' {
+  \globalGloriaMissaIILasso
   a1 a2 c2 ~ | % 2
   c2 c2 c2 c2 | % 3
   b2 a2 b2 b2 | % 4
@@ -43,7 +44,7 @@ sopranNotenGloria = \tempTranspose \relative a' {
   g1 g2 a2 | % 14
   a1 a2 fis4 g4 | % 15
   a2 d,2 r2 b'4 c4 | % 16
-  d2 d2 b2. b4 \pageBreak | % 17
+  d2 d2 b2. b4 \mPageBreak | % 17
   a2 a1 gis2 | % 18
   a\breve | % 19
   R\breve | \barNumberCheck #20
@@ -60,7 +61,7 @@ sopranNotenGloria = \tempTranspose \relative a' {
   a2 d2. c4( a4 b4) | % 31
   c2 a4( b4 c4 d4) e2 | % 32
   d4( c4 ) c1 b2 | % 33
-  c1 r2 g4 a4 \pageBreak | % 34
+  c1 r2 g4 a4 \mPageBreak | % 34
   b2 b2 a2 a4 b4 | % 35
   c2 c2 b2 b4 c4 | % 36
   d2 d2 b2 b4 c4 | % 37
@@ -77,7 +78,7 @@ sopranNotenGloria = \tempTranspose \relative a' {
   e2 e2 e1 | % 47
   cis1 r2 r4 a4 | % 48
   b2 c4 c4 b4 b4 e2 | % 49
-  d2 a2 b2. b4 \pageBreak | \barNumberCheck #50
+  d2 a2 b2. b4 \mPageBreak | \barNumberCheck #50
   a2 a2 g1 | % 51
   g2 g4 a4 b1 | % 52
   r2 b2 c2 b2 | % 53
@@ -94,7 +95,7 @@ sopranNotenGloria = \tempTranspose \relative a' {
   d2 d2 e2 c2 | % 64
   b1 r4 b4 b4 c4 | % 65
   d2 b2 c1 | % 66
-  b1 a2 b2 ~ \pageBreak | % 67
+  b1 a2 b2 ~ \mPageBreak | % 67
   b4( a4) a1 gis2 | % 68
   a1 r4 g4 g4 a4 | % 69
   b4 b4 b4 c4 d2 e2 | \barNumberCheck #70
@@ -105,19 +106,39 @@ sopranNotenGloria = \tempTranspose \relative a' {
   a\breve \bar "|."
 }
 
-PartPOneVoiceOneLyricspartOneverseOne =  \lyricmode {
-  Et in ter -- ra
-  pax ho -- mi -- ni -- bus bo -- næ vo -- lun -- ta -- _ _
-  tis. Be -- ne -- di -- ci -- mus te. A -- do -- ra -- mus te.
-  Glo -- ri -- fi -- ca -- _ _ mus te. Gra -- ti -- as a -- gi -- mus ti -- bi pro -- pter ma -- gnam, pro -- pter ma -- gnam glo -- ri -- am tu -- _ am. Rex cæ -- le -- stis, De -- us Pa -- ter om -- ni -- po -- tens. Do -- mi -- ne Fi -- _ _ li Je -- _ su Chri -- ste. Do -- mi -- ne De -- us, A -- _ _ gnus  __ _ De -- _ _ i,
-  Fi -- li -- us Pa -- tris, Fi -- li -- us Pa -- tris, Fi -- li -- us Pa -- tris, Fi -- li -- us Pa -- tris, Fi -- li -- us Pa -- tris. Qui tol -- lis pec -- ca -- ta mun -- di, mi -- se -- re -- re no -- bis. Qui tol -- lis pec -- ca -- ta mun -- di, su -- sci -- pe de -- pre -- ca -- ti -- o -- nem no -- stram. Qui se -- des ad de -- xte -- ram Pa -- tris, mi -- se -- re -- re no -- bis. Quo -- ni -- am tu so -- lus San -- ctus. Tu so -- lus Do -- mi -- nus. Tu so -- lus Al -- tis -- si -- mus,  __ Je -- su
-  Chri -- _ _ ste. Cum San -- _ cto Spi -- ri -- tu -- in glo -- ri -- a De -- i Pa -- tris. A -- _ _ men. in
-  glo -- ri -- a, in glo -- ri -- a De -- i, in glo -- ri -- a De -- i, in glo -- ri -- a De -- i Pa -- tris. A -- _ _
-  men.
+sopranTextGloriaMissaIILasso =  \lyricmode {
+  Et in ter -- ra pax ho -- mi -- ni -- bus 
+  bo -- næ vo -- lun -- ta -- _ _ tis. 
+  Be -- ne -- di -- ci -- mus te. A -- do -- ra -- mus te.
+  Glo -- ri -- fi -- ca -- _ _ mus te. 
+  Gra -- ti -- as a -- gi -- mus ti -- bi pro -- pter ma -- gnam, 
+  pro -- pter ma -- gnam glo -- ri -- am tu -- _ am. 
+  Rex cæ -- le -- stis, 
+  De -- us Pa -- ter om -- ni -- po -- tens. 
+  Do -- mi -- ne Fi -- _ _ li Je -- _ su Chri -- ste. 
+  Do -- mi -- ne De -- us, A -- _ _ gnus  __ _ De -- _ _ i,
+  Fi -- li -- us Pa -- tris, Fi -- li -- us Pa -- tris, 
+  Fi -- li -- us Pa -- tris, Fi -- li -- us Pa -- tris, 
+  Fi -- li -- us Pa -- tris. 
+  Qui tol -- lis pec -- ca -- ta mun -- di, 
+  mi -- se -- re -- re no -- bis. 
+  Qui tol -- lis pec -- ca -- ta mun -- di, 
+  su -- sci -- pe de -- pre -- ca -- ti -- o -- nem no -- stram. 
+  Qui se -- des ad de -- xte -- ram Pa -- tris, 
+  mi -- se -- re -- re no -- bis. 
+  Quo -- ni -- am tu so -- lus San -- ctus. 
+  Tu so -- lus Do -- mi -- nus. 
+  Tu so -- lus Al -- tis -- si -- mus,  __ 
+  Je -- su Chri -- _ _ ste. 
+  Cum San -- _ cto Spi -- ri -- tu 
+  in glo -- ri -- a De -- i Pa -- tris. A -- _ _ men.
+  In glo -- ri -- a, in glo -- ri -- a De -- i, 
+  in glo -- ri -- a De -- i, in glo -- ri -- a De -- i Pa -- tris. 
+  A -- _ _ men.
 }
 
-altNotenGloria = \tempTranspose \relative e' {
-  \globalGloriaLassoMissaII
+altNotenGloriaMissaIILasso = \tempTranspose \relative e' {
+  \globalGloriaMissaIILasso
   e1 e2 a2 ~ | % 2
   a2 a2 a2 g2 | % 3
   g2 e2 g2 g2 ~ | % 4
@@ -133,7 +154,7 @@ altNotenGloria = \tempTranspose \relative e' {
   d2 d2 e2 fis2 | % 14
   e1 fis2 d4 e4 | % 15
   fis2 g2 fis4 fis4 g2 | % 16
-  fis1 g1 \pageBreak | % 17
+  fis1 g1 \mPageBreak | % 17
   e2. e4 e1 | % 18
   c1 a1 | % 19
   R\breve | \barNumberCheck #20
@@ -150,7 +171,7 @@ altNotenGloria = \tempTranspose \relative e' {
   fis1 fis2 fis4 g4 | % 31
   a2 e2 a2 g2 | % 32
   a1 g1 | % 33
-  e2 e4 fis4 g2 e2 \pageBreak | % 34
+  e2 e4 fis4 g2 e2 \mPageBreak | % 34
   d2 d4 e4 f2 f2 | % 35
   e2 e4 fis4 g2 g2 | % 36
   fis2 g1 g2 | % 37
@@ -167,7 +188,7 @@ altNotenGloria = \tempTranspose \relative e' {
   g4 e4 a1 gis2 | % 47
   a1 r4 d,4 fis2 | % 48
   g2 g2 g4 g4 g2 | % 49
-  fis2 fis2 g2. g4 \pageBreak | \barNumberCheck #50
+  fis2 fis2 g2. g4 \mPageBreak | \barNumberCheck #50
   e2 f2 d1 | % 51
   e2 e4 fis4 g1 | % 52
   r2 fis2 a2 fis2 | % 53
@@ -185,7 +206,7 @@ altNotenGloria = \tempTranspose \relative e' {
   b2 g2 g2. g4 | % 64
   g\breve | % 65
   fis2 fis4 g4 a4 e4 e4 fis4 | % 66
-  g2 d2 fis2 g2 \pageBreak | % 67
+  g2 d2 fis2 g2 \mPageBreak | % 67
   e1 e1 | % 68
   e1 r4 e4 e4 fis4 | % 69
   g2 g2. fis4 g4 g4 | \barNumberCheck #70
@@ -196,17 +217,40 @@ altNotenGloria = \tempTranspose \relative e' {
   cis\breve \bar "|."
 }
 
-PartPTwoVoiceOneLyricspartTwoverseOne =  \lyricmode {
-  Et in ter -- ra
-  pax ho -- mi -- ni -- bus bo -- _ _ _ _ næ vo -- lun -- ta -- tis.
-  Be -- ne -- di -- ci -- mus te. A -- do -- ra -- mus te. Glo -- ri -- fi -- ca -- mus te. Gra -- ti -- as  __ a -- gi -- mus ti -- bi pro -- pter ma -- gnam glo -- ri -- am tu -- am, glo -- ri -- am tu -- am. Rex cæ -- le -- stis, De -- us Pa -- ter om -- ni -- po -- tens. Do -- mi -- ne Fi -- _ _ li Je -- _ _ su Chri -- ste. Do -- mi -- ne De -- us, Do -- mi -- ne De -- us, A -- gnus De -- i, Fi -- li -- us Pa -- tris,
-  Fi -- li -- us Pa -- tris, Fi -- li -- us Pa -- tris, Fi -- li -- us Pa -- tris, Fi -- li -- us Pa -- tris. Qui tol -- lis pec -- ca -- ta mun -- di, mi -- se -- re -- re no -- bis. Qui tol -- lis pec -- ca -- ta mun -- di, su -- sci -- pe de -- pre -- ca -- ti -- o -- nem no -- _ stram. Qui se -- des ad de -- xte -- ram Pa -- tris, mi -- se -- re -- re no -- bis. Quo -- ni -- am tu so -- lus San -- ctus. Tu so -- lus Do -- mi -- nus. Tu so -- lus Al -- tis -- si -- mus, Je -- su Chri -- _ ste. Cum
-  San -- _ cto Spi -- ri -- tu -- in glo -- ri -- a, in glo -- ri -- a De -- i Pa -- tris. A -- men. in glo -- ri -- a De -- i Pa -- tris. A -- men. in glo -- ri -- a De -- i, in glo -- ri -- a De -- i Pa -- tris. A -- men.
+altTextGloriaMissaIILasso =  \lyricmode {
+  Et in ter -- ra pax ho -- mi -- ni -- bus 
+  bo -- _ _ _ _ næ vo -- lun -- ta -- tis.
+  Be -- ne -- di -- ci -- mus te. 
+  A -- do -- ra -- mus te. 
+  Glo -- ri -- fi -- ca -- mus te. 
+  Gra -- ti -- as  __ a -- gi -- mus ti -- bi 
+  pro -- pter ma -- gnam glo -- ri -- am tu -- am, 
+  glo -- ri -- am tu -- am. 
+  Rex cæ -- le -- stis, De -- us Pa -- ter om -- ni -- po -- tens. 
+  Do -- mi -- ne Fi -- _ _ li Je -- _ _ su Chri -- ste. 
+  Do -- mi -- ne De -- us, Do -- mi -- ne De -- us, 
+  A -- gnus De -- i, Fi -- li -- us Pa -- tris,
+  Fi -- li -- us Pa -- tris, Fi -- li -- us Pa -- tris, 
+  Fi -- li -- us Pa -- tris, Fi -- li -- us Pa -- tris. 
+  Qui tol -- lis pec -- ca -- ta mun -- di, 
+  mi -- se -- re -- re no -- bis. 
+  Qui tol -- lis pec -- ca -- ta mun -- di, 
+  su -- sci -- pe de -- pre -- ca -- ti -- o -- nem no -- _ stram. 
+  Qui se -- des ad de -- xte -- ram Pa -- tris, 
+  mi -- se -- re -- re no -- bis. 
+  Quo -- ni -- am tu so -- lus San -- ctus. 
+  Tu so -- lus Do -- mi -- nus. 
+  Tu so -- lus Al -- tis -- si -- mus, Je -- su Chri -- _ ste. 
+  Cum San -- _ cto Spi -- ri -- tu -- in glo -- ri -- a, 
+  in glo -- ri -- a De -- i Pa -- tris. 
+  A -- men. 
+  In glo -- ri -- a De -- i Pa -- tris. 
+  A -- men. 
+  In glo -- ri -- a De -- i, in glo -- ri -- a De -- i Pa -- tris. A -- men.
 }
 
-tenorNotenGloria = \tempTranspose \relative a {
-  \clef "treble_8" 
-  \globalGloriaLassoMissaII
+tenorNotenGloriaMissaIILasso = \tempTranspose \relative a {
+  \globalGloriaMissaIILasso
   a1 c2 e2 ~ | % 2
   e2 e2 f2 e2 | % 3
   d2 c2 d1 | % 4
@@ -222,7 +266,7 @@ tenorNotenGloria = \tempTranspose \relative a {
   b2 b2. b4 d2 ~ | % 14
   d4  cis8[ b8 ] cis2 d2 a2 | % 15
   r2 b4 c4 d2 d2 | % 16
-  r2 b4 c4 d2 b2 \pageBreak | % 17
+  r2 b4 c4 d2 b2 \mPageBreak | % 17
   c2. c4 b2 b2 | % 18
   a1 c2. c4 | % 19
   g2 c2. b8 [ a8 ] b2 | \barNumberCheck #20
@@ -240,7 +284,7 @@ tenorNotenGloria = \tempTranspose \relative a {
   \hide Slur
   a4( b4 c4 d4) e1 | % 32
   f1 d1 | % 33
-  c2 c4 d4 e2 c2 \pageBreak | % 34
+  c2 c4 d4 e2 c2 \mPageBreak | % 34
   b2 b4 c4 d2 d2 | % 35
   c2 c4 d4 e2 e2 | % 36
   d2 b4 c4 d2 d2 | % 37
@@ -257,7 +301,7 @@ tenorNotenGloria = \tempTranspose \relative a {
   c2 c2 b1 | % 47
   a2 r4 a4 b2 d2 | % 48
   r4 d4 e4 e4 d2 c2 | % 49
-  a2 d2. d4 d2 \pageBreak | \barNumberCheck #50
+  a2 d2. d4 d2 \mPageBreak | \barNumberCheck #50
   c2 c1 b2 | % 51
   c1 r2 b4 c4 | % 52
   d1 r2 d2 | % 53
@@ -274,7 +318,7 @@ tenorNotenGloria = \tempTranspose \relative a {
   r2 b2 c4( d4 e4 c4) | % 64
   d2 d2 e2 e2 | % 65
   d1 r1 | % 66
-  r4 b4 b4 c4 d2 b4 b4 \pageBreak | % 67
+  r4 b4 b4 c4 d2 b4 b4 \mPageBreak | % 67
   c2 c2 b1 | % 68
   a4 c4 c4 d4 e2 c2 | % 69
   d1 r4 b4 b4 c4 | \barNumberCheck #70
@@ -285,19 +329,48 @@ tenorNotenGloria = \tempTranspose \relative a {
   a\breve \bar "|."
 }
 
-PartPThreeVoiceOneLyricspartThreeverseOne =  \lyricmode {
-  Et in ter -- ra pax ho -- mi -- ni -- bus bo -- næ vo -- lun -- ta -- tis. Lau -- da -- mus te. A -- do -- ra -- mus te. Glo -- ri -- fi -- ca -- mus te. Gra -- ti -- as a -- gi -- mus  __ _ _ ti -- bi
-  pro -- pter ma -- gnam, pro -- pter ma -- gnam glo -- ri -- am tu -- am. Do -- mi -- ne De -- _ _ us, Rex cæ -- le -- stis, De -- us Pa -- ter om -- ni -- po -- tens. 
-  …u -- ni -- ge -- ni -- te Je -- su Chri -- ste. Do -- mi -- ne De -- us, A -- _ gnus De -- i, Fi -- li -- us Pa -- tris, Fi -- li -- us
-  Pa -- tris, Fi -- li -- us Pa -- tris, Fi -- li -- us Pa -- tris, Fi -- li -- us Pa -- _ tris. Qui tol -- lis pec -- ca -- ta mun -- di, mi -- se -- re -- re no -- bis. Qui tol -- lis
-  pec -- ca -- ta mun -- di, su -- sci -- pe de -- pre -- ca -- ti -- o -- nem no -- stram. Qui se -- des ad de -- xte -- ram Pa -- tris, mi -- se -- re -- re no -- _ bis. Quo -- ni -- am tu
-  so -- lus San -- ctus. Tu so -- lus Do -- mi -- nus. Tu so -- lus  __ Al -- tis -- si -- mus, Je -- su Chri -- ste. Cum San -- _ cto, cum San -- _ cto Spi -- ri -- tu -- in glo -- ri -- a De -- i Pa -- tris. A -- men. in glo -- ri -- a De -- i,
-  in glo -- ri -- a De -- i Pa -- tris, in glo -- ri -- a, in glo -- ri -- a De -- i Pa -- tris. A -- men.
+tenorTextGloriaMissaIILasso =  \lyricmode {
+  Et in ter -- ra pax ho -- mi -- ni -- bus 
+  bo -- næ vo -- lun -- ta -- tis. 
+  Lau -- da -- mus te. 
+  A -- do -- ra -- mus te. 
+  Glo -- ri -- fi -- ca -- mus te. 
+  Gra -- ti -- as a -- gi -- mus  __ _ _ ti -- bi
+  pro -- pter ma -- gnam, 
+  pro -- pter ma -- gnam glo -- ri -- am tu -- am. 
+  Do -- mi -- ne De -- _ _ us, 
+  Rex cæ -- le -- stis, 
+  De -- us Pa -- ter om -- ni -- po -- tens. 
+  …u -- ni -- ge -- ni -- te Je -- su Chri -- ste. 
+  Do -- mi -- ne De -- us, 
+  A -- _ gnus De -- i, 
+  Fi -- li -- us Pa -- tris, 
+  Fi -- li -- us Pa -- tris, 
+  Fi -- li -- us Pa -- tris, 
+  Fi -- li -- us Pa -- tris, 
+  Fi -- li -- us Pa -- _ tris. 
+  Qui tol -- lis pec -- ca -- ta mun -- di, 
+  mi -- se -- re -- re no -- bis. 
+  Qui tol -- lis pec -- ca -- ta mun -- di, 
+  su -- sci -- pe de -- pre -- ca -- ti -- o -- nem no -- stram. 
+  Qui se -- des ad de -- xte -- ram Pa -- tris, 
+  mi -- se -- re -- re no -- _ bis. 
+  Quo -- ni -- am tu so -- lus San -- ctus. 
+  Tu so -- lus Do -- mi -- nus. 
+  Tu so -- lus  __ Al -- tis -- si -- mus, 
+  Je -- su Chri -- ste. 
+  Cum San -- _ cto, 
+  cum San -- _ cto Spi -- ri -- tu 
+  in glo -- ri -- a De -- i Pa -- tris. 
+  A -- men. 
+  In glo -- ri -- a De -- i, 
+  in glo -- ri -- a De -- i Pa -- tris, 
+  in glo -- ri -- a, in glo -- ri -- a De -- i Pa -- tris. 
+  A -- men.
 }
 
-bassNotenGloria = \tempTranspose \relative a {
-  \clef "bass" 
-  \globalGloriaLassoMissaII
+bassNotenGloriaMissaIILasso = \tempTranspose \relative a {
+  \globalGloriaMissaIILasso
   a1 a2 a2 ~ | % 2
   a2 a2 f2 c2 | % 3
   g'2 a2 g1 | % 4
@@ -314,7 +387,7 @@ bassNotenGloria = \tempTranspose \relative a {
   g1 e2 d2 | % 14
   a'1 d,1 | % 15
   r2 g4 a4 b2 g2 | % 16
-  b4 c4 d2 g,2 g4 g4 \pageBreak | % 17
+  b4 c4 d2 g,2 g4 g4 \mPageBreak | % 17
   a2 a,2 e'1 | % 18
   r2 f2. f4 f2 | % 19
   e2 d4( c4) d1 | \barNumberCheck #20
@@ -331,7 +404,7 @@ bassNotenGloria = \tempTranspose \relative a {
   r2 b4 c4 d2 d2 | % 31
   a2 a'2. b4 c2 | % 32
   f,1 g1 | % 33
-  c,1 r2 e4 fis4 \pageBreak | % 34
+  c,1 r2 e4 fis4 \mPageBreak | % 34
   g2 g2 d2 f4 g4 | % 35
   a2 a2 e2 g4 a4 | % 36
   b2 g2 g1 | % 37
@@ -348,7 +421,7 @@ bassNotenGloria = \tempTranspose \relative a {
   c2 a2 e'1 | % 47
   a,2 a'2 g2 d2 | % 48
   r4 g4 c4 c4 g2 c,2 | % 49
-  d1 g2. g4 \pageBreak | \barNumberCheck #50
+  d1 g2. g4 \mPageBreak | \barNumberCheck #50
   a2 f2 g1 | % 51
   c,1 r2 g'4 a4 | % 52
   b1 r2 b2 | % 53
@@ -365,7 +438,7 @@ bassNotenGloria = \tempTranspose \relative a {
   g1 r2 c2 | % 64
   g2 g2 e2 e2 | % 65
   b'1 a2 a4 a4 | % 66
-  e2 g2 d2 g2 \pageBreak | % 67
+  e2 g2 d2 g2 \mPageBreak | % 67
   a2 a2 e1 | % 68
   r4 a4 a4 b4 c2. b8 [ a8 ] | % 69
   g4 g4 g4 a4 b2 e,2 | \barNumberCheck #70
@@ -376,7 +449,7 @@ bassNotenGloria = \tempTranspose \relative a {
   a,\breve \bar "|."
 }
 
-PartPFourVoiceOneLyricspartFourverseOne =  \lyricmode {
+bassTextGloriaMissaIILasso =  \lyricmode {
   Et in ter -- ra pax ho -- mi -- ni -- bus 
   bo -- næ vo -- lun -- ta -- tis. 
   Lau -- da -- mus te. A -- do -- ra -- mus te. 
@@ -390,11 +463,19 @@ PartPFourVoiceOneLyricspartFourverseOne =  \lyricmode {
   Fi -- li -- us Pa -- tris, Fi -- li -- us Pa -- tris, 
   Fi -- li -- us Pa -- tris,
   Fi -- li -- us Pa -- tris. 
-  Qui tol -- lis pec -- ca -- ta mun -- di, mi -- se -- re -- re no -- bis. su -- sci -- pe de -- pre -- ca -- ti -- o -- nem no -- stram. Qui se -- des ad de -- xte -- ram Pa -- tris, mi -- se -- re -- re no -- bis. Quo -- ni -- am
-  tu so -- lus San -- ctus. 
-  Tu so -- lus Do -- mi -- nus. Tu so -- lus Al -- tis -- si -- mus, Je -- su Chri -- _ ste. Cum San -- _ cto Spi -- ri -- tu, cum San -- cto Spi -- ri -- tu -- in
-  glo -- ri -- a De -- i Pa -- tris. 
-  A -- men. in glo -- ri -- a, __ _ _ in glo -- ri -- a De -- i Pa -- tris, in glo -- ri -- a De -- i Pa -- tris. A -- men.
+  Qui tol -- lis pec -- ca -- ta mun -- di, 
+  mi -- se -- re -- re no -- bis. 
+  Su -- sci -- pe de -- pre -- ca -- ti -- o -- nem no -- stram. 
+  Qui se -- des ad de -- xte -- ram Pa -- tris, 
+  mi -- se -- re -- re no -- bis. 
+  Quo -- ni -- am tu so -- lus San -- ctus. 
+  Tu so -- lus Do -- mi -- nus. 
+  Tu so -- lus Al -- tis -- si -- mus, Je -- su Chri -- _ ste. 
+  Cum San -- _ cto Spi -- ri -- tu, 
+  cum San -- cto Spi -- ri -- tu -- in glo -- ri -- a De -- i Pa -- tris. 
+  A -- men. 
+  In glo -- ri -- a, __ _ _ in glo -- ri -- a De -- i Pa -- tris, 
+  in glo -- ri -- a De -- i Pa -- tris. A -- men.
 }
 
 % The score definition
@@ -406,32 +487,44 @@ scoreGloriaMissaIILasso = {
         \set Staff.instrumentName = "SOPRAN"
         \set Staff.shortInstrumentName = "S."
         \context Staff <<
-          \context Voice = "PartPOneVoiceOne" { \optionalTranspose \sopranNotenGloria }
-          \new Lyrics \lyricsto "PartPOneVoiceOne" \PartPOneVoiceOneLyricspartOneverseOne
+          \context Voice = "vsop" { 
+            \clef "treble"
+            \optionalTranspose \sopranNotenGloriaMissaIILasso 
+          }
+          \new Lyrics \lyricsto "vsop" \sopranTextGloriaMissaIILasso
         >>
       >>
       \new Staff <<
         \set Staff.instrumentName = "ALT"
         \set Staff.shortInstrumentName = "A."
         \context Staff <<
-          \context Voice = "PartPTwoVoiceOne" { \optionalTranspose \altNotenGloria }
-          \new Lyrics \lyricsto "PartPTwoVoiceOne" \PartPTwoVoiceOneLyricspartTwoverseOne
+          \context Voice = "valt" {
+            \clef "treble"
+            \optionalTranspose \altNotenGloriaMissaIILasso
+          }
+          \new Lyrics \lyricsto "valt" \altTextGloriaMissaIILasso
         >>
       >>
       \new Staff <<
         \set Staff.instrumentName = "TENOR"
         \set Staff.shortInstrumentName = "T."
         \context Staff <<
-          \context Voice = "PartPThreeVoiceOne" { \optionalTranspose \tenorNotenGloria }
-          \new Lyrics \lyricsto "PartPThreeVoiceOne" \PartPThreeVoiceOneLyricspartThreeverseOne
+          \context Voice = "vten" { 
+            \clef "G_8"
+            \optionalTranspose \tenorNotenGloriaMissaIILasso 
+          }
+          \new Lyrics \lyricsto "vten" \tenorTextGloriaMissaIILasso
         >>
       >>
       \new Staff <<
         \set Staff.instrumentName = "BASS"
         \set Staff.shortInstrumentName = "B."
         \context Staff <<
-          \context Voice = "PartPFourVoiceOne" { \optionalTranspose \bassNotenGloria }
-          \new Lyrics \lyricsto "PartPFourVoiceOne" \PartPFourVoiceOneLyricspartFourverseOne
+          \context Voice = "vbass" { 
+            \clef "bass"
+            \optionalTranspose \bassNotenGloriaMissaIILasso
+          }
+          \new Lyrics \lyricsto "vbass" \bassTextGloriaMissaIILasso
         >>
       >>
 
@@ -441,7 +534,7 @@ scoreGloriaMissaIILasso = {
   
 }
 
-%{Arbeitspartitur
+%***Arbeitspartitur
 #(set-global-staff-size 16)
 \score {
   \scoreGloriaMissaIILasso
@@ -456,4 +549,4 @@ scoreGloriaMissaIILasso = {
     }
   }
 }
-Arbeitspartitur%}
+%Arbeitspartitur***
